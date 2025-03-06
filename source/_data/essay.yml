@@ -1,0 +1,15 @@
+- title: 即刻短文
+  subTitle: 咸鱼的日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: https://img.onew.us.kg/file/1741069370097_bg.jpg
+  essay_list:
+    - content: 遇见彩虹🌈吃定彩虹
+      date: 2025/03/03 22:03:00
+      image:
+        - https://bu.dusays.com/2023/04/09/64329399e285d.webp
+        - https://bu.dusays.com/2023/04/09/64329399aa3bc.webp
+        - https://bu.dusays.com/2023/04/09/6432939996dd7.webp
