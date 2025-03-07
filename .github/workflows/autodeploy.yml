@@ -58,7 +58,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository-name: xiaoliula/OnewBlog
+          repository-name: xiaoliula/hexo-blog
           branch: blog
           folder: public
           commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
