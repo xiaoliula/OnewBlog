@@ -25,3 +25,17 @@
       image:
         - https://img.onew.us.kg/file/1741069370097_bg.jpg
         - https://img.onew.us.kg/file/1741069370097_bg.jpg
+
+- class_name: 我的日常
+  path_name: /dailyPhoto
+  type: 1
+  description: 这里存放的是有关我自己的一些沙雕生活与有趣的事情。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://img.onew.us.kg/file/1741069370097_bg.jpg
+  cover: https://img.onew.us.kg/file/1741069370097_bg.jpg
+  album_list:
+    - date: 2022-10-24
+      content: 老妹的画
+      image:
+        - https://img.onew.us.kg/file/1741069370097_bg.jpg
