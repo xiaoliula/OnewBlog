@@ -21,6 +21,20 @@ menu:
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
     我的装备: /equipment/ || anzhiyu-icon-dice-d20
 
+
+# Security
+encrypt: # hexo-blog-encrypt
+  abstract: 有东西被加密了, 请输入密码查看.
+  message: 您好, 这里需要密码.
+  tags:
+  - {name: tagName, password: 密码A}
+  - {name: tagName, password: 密码B}
+  theme: wave #default/blink/shrink/flip/up/surge/wave/xray
+  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+
+
+
 # nav相关配置
 nav:
   enable: true
@@ -35,7 +49,7 @@ nav:
     - title: 项目
       item:
         - name: 文件中转站
-          link: http://onedabuliu.us.kg:12345
+          link: https://file.onew.us.kg
           icon: /img/file_upload.svg
         - name: 图床
           link: https://img.onew.us.kg/
@@ -847,7 +861,7 @@ aside:
       - Java
       - Docker
   card_archives:
-    enable: true
+    enable: false
     type: monthly # yearly or monthly
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -1065,22 +1079,22 @@ home_top:
   siteText: onewa.fun
   category:
     - name: 学习
-      path: /categories/Study/
+      path: /categories/学习/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
     - name: 工作
-      path: /categories/Work/
+      path: /categories/工作/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
     - name: 生活
-      path: /categories/Life/
+      path: /categories/生活/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
     - name: 小作文
-      path: /categories/Small-composition/
+      path: /categories/小作文/
       shadow: var(--anzhiyu-shadow-pink)
       class: pink
       icon: anzhiyu-icon-paper-plane

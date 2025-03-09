@@ -16,6 +16,7 @@
     "gulp": "^5.0.0",
     "hexo": "^7.3.0",
     "hexo-bilibili-bangumi": "^1.10.8",
+    "hexo-blog-encrypt": "^3.1.9",
     "hexo-butterfly-envelope": "^1.0.15",
     "hexo-external-link": "^1.0.9",
     "hexo-generator-archive": "^2.0.0",
