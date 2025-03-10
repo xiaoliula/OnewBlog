@@ -7168,7 +7168,7 @@ body[data-type="link"] #page .page-title {
 }
 #recent-posts > .recent-post-item .recent-post-info .article-title {
   font-size: 20px;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   line-height: 30px;
   margin-top: 0;
   font-weight: 700;
