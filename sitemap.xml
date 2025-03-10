@@ -20,6 +20,24 @@
   </url>
   
   <url>
+    <loc>https://blog.onew.us.kg/tags/</loc>
+    
+    <lastmod>2025-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/thousand/</loc>
+    
+    <lastmod>2025-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onew.us.kg/manifest.json</loc>
     
     <lastmod>2025-03-10</lastmod>
@@ -56,16 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/thousand/</loc>
-    
-    <lastmod>2025-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/tags/</loc>
+    <loc>https://blog.onew.us.kg/about/</loc>
     
     <lastmod>2025-03-10</lastmod>
     
@@ -84,15 +93,6 @@
   
   <url>
     <loc>https://blog.onew.us.kg/album/</loc>
-    
-    <lastmod>2025-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/about/</loc>
     
     <lastmod>2025-03-10</lastmod>
     
@@ -619,20 +619,6 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/tags/%E9%82%A3%E4%BA%9B%E5%B0%8F%E4%BA%8B%E5%84%BF/</loc>
-    <lastmod>2025-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/tags/PHP/</loc>
-    <lastmod>2025-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onew.us.kg/tags/Tag-Plugins/</loc>
     <lastmod>2025-03-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -641,6 +627,13 @@
   
   <url>
     <loc>https://blog.onew.us.kg/tags/Hexo/</loc>
+    <lastmod>2025-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/tags/%E9%82%A3%E4%BA%9B%E5%B0%8F%E4%BA%8B%E5%84%BF/</loc>
     <lastmod>2025-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -676,6 +669,13 @@
   
   <url>
     <loc>https://blog.onew.us.kg/tags/%E5%9F%9F%E5%90%8D/</loc>
+    <lastmod>2025-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/tags/PHP/</loc>
     <lastmod>2025-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
