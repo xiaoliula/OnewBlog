@@ -6,7 +6,7 @@ menu:
 
   友链:
     友人帐: /link/ || anzhiyu-icon-link
-    朋友圈: /fcircle/ || anzhiyu-icon-artstation
+    # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
@@ -1123,7 +1123,7 @@ home_top:
 
 # 朋友圈配置
 friends_vue:
-  enable: true
+  enable: false
   vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.2/friends/index.f9a2b8d2.js
   apiurl: https://friends.anheyu.com/ # 朋友圈后端地址
   top_background: https://img.onew.us.kg/file/1741069370097_bg.jpg
