@@ -500,7 +500,7 @@ footer:
         link: https://github.com/xiaoliula
         icon: anzhiyu-icon-github
       - title: RSS
-        link: atom.xml
+        link: sitemap.xml
         icon: anzhiyu-icon-rss
       - title: CC
         link: /copyright
