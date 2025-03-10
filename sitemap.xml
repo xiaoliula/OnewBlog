@@ -29,6 +29,15 @@
   </url>
   
   <url>
+    <loc>https://blog.onew.us.kg/link/</loc>
+    
+    <lastmod>2025-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onew.us.kg/music/</loc>
     
     <lastmod>2025-03-10</lastmod>
@@ -65,42 +74,6 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/link/</loc>
-    
-    <lastmod>2025-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/categories/</loc>
-    
-    <lastmod>2025-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/cookies/</loc>
-    
-    <lastmod>2025-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/dailyPhoto/</loc>
-    
-    <lastmod>2025-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onew.us.kg/equipment/</loc>
     
     <lastmod>2025-03-10</lastmod>
@@ -128,15 +101,6 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/copyright/</loc>
-    
-    <lastmod>2025-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onew.us.kg/about/</loc>
     
     <lastmod>2025-03-10</lastmod>
@@ -156,6 +120,42 @@
   
   <url>
     <loc>https://blog.onew.us.kg/album/</loc>
+    
+    <lastmod>2025-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/categories/</loc>
+    
+    <lastmod>2025-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/cookies/</loc>
+    
+    <lastmod>2025-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/copyright/</loc>
+    
+    <lastmod>2025-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/dailyPhoto/</loc>
     
     <lastmod>2025-03-10</lastmod>
     
