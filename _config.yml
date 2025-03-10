@@ -190,7 +190,8 @@ hexo_safego:
   # 域名白名单
   whitelist:
     domain_whitelist:           # 允许的白名单域名
-      - "localhost"
+      - "blog.onew.us.kg"
+      - "onew.us.kg"
   # 页面外观设置
   appearance:
     avatar: /img/logo.jpg       # 头像路径
