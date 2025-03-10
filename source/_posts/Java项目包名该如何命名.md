@@ -22,8 +22,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: ：文章介绍了包名相关知识。首先说明包名的一般格式为 com. 公司名。项目名。模块名。接着以项目名称为 XXX 为例，指出若有域名example.com，根包名可设为 com.example.XXX；还提到应依据项目功能模块，如登录、注册等，对模块包名进行进一步细分。
 ---

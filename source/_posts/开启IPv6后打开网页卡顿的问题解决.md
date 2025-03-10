@@ -23,8 +23,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 本文主要介绍了作者开启 IPv6 后网页打开速度变慢，怀疑是 PMTU 黑洞问题。MTU 影响数据包传输，中间设备配置不当会导致 PMTU 黑洞。作者使用检测工具，将路由器 MRU 值从 1478 改到 1200，再次检测时打开速度加快。最后作者补充了 MTU 和 MRU 的概念及区别，虽改的是 MRU，但也解决了速度慢的问题。
 ---

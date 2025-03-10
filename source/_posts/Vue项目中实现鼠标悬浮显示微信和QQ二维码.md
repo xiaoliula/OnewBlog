@@ -29,8 +29,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 本文主要介绍了作者计划美化博客，要实现鼠标悬停时显示二维码且内容在页面最上层，记录相关代码。HTML 代码利用 CSS 的 :hover 伪类和 display 属性控制二维码框显示隐藏，添加文字提示元素并居中显示；CSS 代码通过 position、top、left 等属性定位二维码框，设置内边距、背景色、圆角、阴影等样式，用 z-index 确保元素在最上层；JS 代码通过事件处理函数控制二维码显示隐藏。还展示了演示效果，作者表示会逐步美化博客。
 ---

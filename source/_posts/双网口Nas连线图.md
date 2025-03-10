@@ -24,8 +24,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 这是一幅多网口设备的拓扑图。其前提是群辉具备两个网口，在群辉的虚拟机系统中安装了 iKuai 和 iStoreOS，其中 iStoreOS 可用于存储或虚拟化管理。该拓扑图中，设备通过物理网卡 eth0、eth1、eth2、eth3 与外部网络以及其他设备进行通信，而虚拟桥接 vmbr0、vmbr1、vmbr2 则用于连接虚拟机之间的通信，以此构建起一个复杂的网络架构。
 ---

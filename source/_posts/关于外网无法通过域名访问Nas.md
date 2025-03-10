@@ -24,8 +24,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 本文主要介绍了作者在折腾Nas时遇到外网无法通过域名访问的问题，路由器拨号且有公网IPv6，经ddns-go解析到cf、域名托管在cf、开了小黄云并做了端口转发。排查中曾以为是路由器问题，后发现不是。先后关掉origin rules中Nas及blog的端口转发，问题依旧；关掉小黄云仍无法访问，后用手机5G测试有IPv6地址，通过域名加端口号可访问。但关闭主力域名小黄云有暴露Nas IP风险，最终解决方案是用另一个域名映射且不开小黄云，主力域名小黄云正常开着，origin rules端口转发打开。补充提到做Nas端口转发会报错，认为可能是域名原因。更新中指出无法访问原因是Cloudflare半程SSL导致握手失败，解决方法是在Cloudflare设置子域名SSL严格模式。 
 ---

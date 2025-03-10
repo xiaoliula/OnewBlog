@@ -28,8 +28,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 本文主要介绍了作者欲将前几年手机上所写小作文转至博客，因导出的是base64格式的HTML文件，其中图片不便复制且原图占空间大，故而编写Python代码。代码先读取HTML文件，查找所有base64数据，再将其解码，打开图片并转换为RGB模式，最后保存为WebP格式。作者还展示了代码运行后的效果图片。
 ---

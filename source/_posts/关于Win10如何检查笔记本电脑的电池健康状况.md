@@ -22,8 +22,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 介绍获取电池报告的操作步骤，先打开开始菜单启动命令提示符，在其中输入 powercfg /batteryreport 并回车，最后找到并打开生成的报告，还配有相关操作图片。
 ---

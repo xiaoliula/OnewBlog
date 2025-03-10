@@ -28,8 +28,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 本文主要介绍了作者因项目学习需要，在已安装MySQL5.7 msi版的基础上安装MySQL8.0 zip版。先给出下载链接，安装时强调解压位置、配置文件修改要点，如端口号等。详细说明初始化、安装服务、开启服务、登录及设置密码等步骤，还介绍Navicat连接方法和额外配置（添加外网访问权限、创建用户等）。随后分享踩坑经验，包括连接报错、服务启动问题、命令执行报错、Navicat连接报错等及解决办法。最后，作者推荐通过docker安装MySQL并给出docker-compose文件，还罗列了MySQL常用命令，涵盖连接数据库、管理数据库和表、用户权限管理、数据操作等多方面。
 ---

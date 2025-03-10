@@ -24,8 +24,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 文章介绍了使用 MinIO 进行文件上传的步骤：添加依赖：在 pom.xml 中添加 MinIO 依赖，然后刷新 Maven 项目。新建 Maven 项目：给出示例代码，包含 MinIO 客户端初始化、检查存储桶是否存在（不存在则创建）以及使用文件流上传文件的逻辑。展示上传结果：附上了上传结果的图片。
 ---

@@ -22,8 +22,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 文章分享了多个可免费注册域名的网址，如 dynv6、nic.eu.org、clouddns.net、US.KG ，分别介绍其特点、注册方式及优缺点。还详细演示了将 US.KG 域名托管到 cf 的步骤，以及提及白嫖 cf 的 ssl 证书和开启 CDN 加速可参考 B 站 “技术爬爬虾” 的相关视频。
 ---

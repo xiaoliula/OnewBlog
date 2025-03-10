@@ -22,8 +22,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 文章围绕 “npm update check failed” 错误展开，虽该错误无关紧要，但出现时会带来困扰。错误提示配有相关图片链接。解决方法是删除 configstore 目录，在 Windows 上，该目录位于 “C:\Users<username>.config\configstore” ，可手动删除或用 “rd /s/q "C:\Users<username>.config\configstore"” 命令删除，且需将<username>替换为实际用户名。此解决方法引自 Borislav Hadzhiev 的博客，附原链接。
 ---

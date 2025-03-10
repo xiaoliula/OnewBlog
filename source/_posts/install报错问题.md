@@ -22,8 +22,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: npm install 安装报错时，可尝试多种解决方法。包括清除 npm 缓存、检查 Node 和 npm 版本、更换 npm 源、删除 package - lock.json 文件、使用特定标志强制安装、检查代理设置、排查网络问题、重新安装 Node.js 和 npm、手动安装依赖项、用 Yarn 替代、清理缓存并重置配置、查看详细日志等，还需检查依赖兼容性、更新 Node.js 等，解决时按需选择，若都无效可查日志或求助社区。
 ---

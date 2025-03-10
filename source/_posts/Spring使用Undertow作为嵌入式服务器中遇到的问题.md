@@ -2,7 +2,7 @@
 title: Spring使用Undertow作为嵌入式服务器中遇到的问题
 date: 2024-05-26 15:24:00
 updated: 2024-05-26 15:24:00
-tags: Vue
+tags: Java
 categories: 学习
 keywords: 
 description:
@@ -22,8 +22,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 做毕业设计时，使用 Undertow 作嵌入式服务器上传文件限制代码不生效，只能上传 1MB 内图片，配置文件设置 10MB 仍报错。经多轮排查无果，最终发现是 application.yml 里 servlet 缩进未与 datasource 对齐所致。
 ---

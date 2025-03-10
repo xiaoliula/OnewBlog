@@ -22,8 +22,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 这篇文章详细介绍了在 IntelliJ IDEA 中重命名 Spring Boot 项目的步骤，以避免重命名后报错。具体步骤包括：关闭并在文件系统中重命名项目文件夹后重新打开；根据构建工具修改项目配置文件；在 IDE 中重命名项目并修改 .idea 文件夹中的配置；更新应用程序属性；清理和重建项目；检查和修复依赖关系并运行项目；若有需要重命名包名；最后更新 README 等文档。
 ---

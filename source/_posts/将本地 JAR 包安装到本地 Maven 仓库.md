@@ -22,8 +22,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 文章介绍了将本地 JAR 文件安装到本地 Maven 仓库并在项目中使用的步骤，包括打开终端运行安装命令，在 pom.xml 中添加依赖，刷新 Maven 项目并验证依赖是否生效；还提及可重复步骤安装多个 JAR 文件，以及使用 mvn deploy:deploy-file 命令将本地 JAR 文件部署到远程 Maven 仓库的方法。
 

@@ -22,8 +22,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 本文介绍了在 cmd 中查看被占用端口的 pid 的方法，使用 “netstat –aon |findstr “xxxxx”” 命令，其中 “xxxxx” 为目标端口号；还介绍了关闭找到端口被占用对应的 PID 的命令 “TASKKILL /PID xxxxx /F” ，并配有相关操作示例图片链接辅助说明。
 ---

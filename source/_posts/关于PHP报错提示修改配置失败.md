@@ -24,8 +24,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 本文主要介绍在将基于 PHP7.4 的项目部署到 Nas 时，因配置失败报错，排查发现是权限问题，config.php 权限为 755，PHP 进程无法写入。具体解决步骤：调整文件权限为 664、目录权限为 775；更改文件和目录所有者为 PHP 进程用户（通常为 www-data），可检查 PHP 进程用户；确认权限和所有者设置，必要时重启容器；若仍无法写入，检查 PHP 错误日志。最终解决了写入文件配置的问题，感叹学无止境。
 ---

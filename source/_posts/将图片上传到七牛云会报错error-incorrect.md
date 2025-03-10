@@ -22,8 +22,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 文章呈现了一段七牛云上传文件报错代码，报错信息为 “incorrect region” 。经分析，问题原因是创建七牛云存储空间时选择华南地区，而上传文件配置类中却是其他地区。解决办法是在配置 Configuration 类时，根据实际情况选择正确的 region 类型，并配有相关图片链接辅助说明。
 ---

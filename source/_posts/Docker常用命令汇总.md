@@ -24,8 +24,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 本文主要介绍了作者因折腾 docker 时遇到不熟悉命令，为避免每次上网搜索而记录相关内容，记录了一些 Docker 常用命令。
 ---

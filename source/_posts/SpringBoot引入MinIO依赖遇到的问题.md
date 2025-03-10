@@ -24,8 +24,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 本文主要介绍了 MinIO Java SDK 相关信息，包括参考文档、依赖下载地址及 JDK 要求，还给出三个常见异常的 Maven 配置解决办法。
 ---

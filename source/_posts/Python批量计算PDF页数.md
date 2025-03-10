@@ -23,8 +23,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 本文主要介绍作者下载了 2016 年到 2024 年的国考真题，想打印出来做，因页数多不知具体数量，便编写 Python 代码批量计算 PDF 页数。先介绍安装 PyPDF2 库的命令，接着给出代码，代码中函数可统计每个 PDF 页数及总页数，通过累加实现。最后展示代码运行效果截图。
 ---

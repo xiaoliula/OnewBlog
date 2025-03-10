@@ -25,8 +25,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 博主在使用 nas 时，因 immich 无法批量筛选视频，决定下载全部内容并用 Python 代码批量提取视频到指定文件夹。文章给出 Python 代码及解释，还介绍了解决运行代码时中文乱码的方法，最终成功提取 386 个视频，共 23G，有 3 个未提取到。
 ---

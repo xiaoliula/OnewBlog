@@ -22,8 +22,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 10
-top_group_index: 10
+# swiper_index: 10
+# top_group_index: 10
 background: "#fff"
 ai: 使用 Undertow 作为 Spring Boot 嵌入式服务器启动应用时会出现警告日志，解决方法有两种：一是未用 WebSocket 技术可排除 undertow - websockets - jsr 依赖；二是为 WebSocketDeploymentInfo 设置合理参数，两种方式经测试均有效。
 ---

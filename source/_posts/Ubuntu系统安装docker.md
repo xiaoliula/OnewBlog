@@ -24,8 +24,8 @@ katex:
 aplayer:
 highlight_shrink: false
 aside: true
-swiper_index: 1
-top_group_index: 1
+swiper_index: 2
+top_group_index: 2
 background: "#fff"
 ai: 本文主要介绍了作者在华为云白嫖云服务器后，打算将运行在自家 NAS（仅有 IPv6 公网）上的博客迁移至此，因服务器使用 Ubuntu 系统且博客以 docker 安装方便迁移，遂记录 Ubuntu 下安装 docker 的步骤。涵盖卸载旧版本、更新软件包及依赖、安装 Docker GPG 密钥与 APT 源、安装 Docker、启动并启用服务、验证安装，还介绍了安装 docker - compose 及检查版本，最后提醒 Compose V2 命令格式变化。
 ---
