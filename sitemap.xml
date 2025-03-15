@@ -565,6 +565,13 @@
   </url>
   
   <url>
+    <loc>https://blog.onedabuliu.cn/tags/Java/</loc>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onedabuliu.cn/tags/Python/</loc>
     <lastmod>2025-03-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -580,13 +587,6 @@
   
   <url>
     <loc>https://blog.onedabuliu.cn/tags/Immich/</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onedabuliu.cn/tags/Java/</loc>
     <lastmod>2025-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
