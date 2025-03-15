@@ -49,7 +49,7 @@
   top_btn_text: 返回
   album_list:
     - date: 2025/1/6 20:12:00
-      content: 生蚝。
+      content: 在弟弟家吃的生蚝。
       address: 重庆市南川区
       from: Onew
       image:
@@ -78,6 +78,13 @@
       from: Onew
       image:
         - https://img.onedabuliu.cn/file/e3b83960d63468c88c70a0dcc02a98d.jpg
+    - date: 2025/3/13 19:47:29
+      content: 给外婆过生日😄
+      address: 重庆市南川区
+      from: Onew
+      image:
+        - https://img.onedabuliu.cn/file/1742050005034_e747773382511dbe56c504d3ce7f4da.jpg
+        - https://img.onedabuliu.cn/file/1742050004954_2984afb2f14bd1ff7ee7dfa8cbe200c.jpg
 
 - class_name: 一眼万年
   path_name: /thousand
