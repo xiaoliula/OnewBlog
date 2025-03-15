@@ -71,5 +71,5 @@ cat /var/log/apache2/error.log
 # 结语
 通过上面的操作就能完美的写入文件配置了，之前还没有注意过PHP还有权限这一说，学无止境啊
 
-![image.png](https://img.onew.us.kg/file/11726295289262883.png)
-![image.png](https://img.onew.us.kg/file/11726295324385844.png)
+![image.png](https://img.onedabuliu.cn/file/11726295289262883.png)
+![image.png](https://img.onedabuliu.cn/file/11726295324385844.png)

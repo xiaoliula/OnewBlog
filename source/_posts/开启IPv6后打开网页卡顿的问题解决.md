@@ -7,9 +7,9 @@ tags:
 categories: 学习
 keywords: 
 description:
-top_img: https://img.onew.us.kg/file/onew11727399315950783.jpg
+top_img: https://img.onedabuliu.cn/file/onew11727399315950783.jpg
 comments: true
-cover: https://img.onew.us.kg/file/onew11727399315950783.jpg
+cover: https://img.onedabuliu.cn/file/onew11727399315950783.jpg
 toc:
 toc_number:
 toc_style_simple:
@@ -43,27 +43,27 @@ MTU (Maximum transmission unit) 是一条链路上可以通过的三层数据包
 这里提供一个ipv6的检查工具 [http://icmpcheckv6.popcount.org/](http://icmpcheckv6.popcount.org/) ，建议在浏览器里打开这个站点。
 站点页面的显示如下：
 
-![image.png](https://img.onew.us.kg/file/onew11727398346163390.png)
+![image.png](https://img.onedabuliu.cn/file/onew11727398346163390.png)
 
 翻译后：
 
-![image.png](https://img.onew.us.kg/file/onew11727398385289433.png)
+![image.png](https://img.onedabuliu.cn/file/onew11727398385289433.png)
 
 这时我的路由器中最大接受单元（MRU）的值是1478：
 
-![image.png](https://img.onew.us.kg/file/onew11727398481561458.png)
+![image.png](https://img.onedabuliu.cn/file/onew11727398481561458.png)
 
 我们需要把最大接受单元（MRU）的值修改为1200：
 
-![image.png](https://img.onew.us.kg/file/onew11727398612210350.png)
+![image.png](https://img.onedabuliu.cn/file/onew11727398612210350.png)
 
 再次打开 [http://icmpcheckv6.popcount.org/](http://icmpcheckv6.popcount.org/) 进行检测，页面显示如下：
 
-![image.png](https://img.onew.us.kg/file/onew11727398674527314.png)
+![image.png](https://img.onedabuliu.cn/file/onew11727398674527314.png)
 
 翻译如下：
 
-![image.png](https://img.onew.us.kg/file/onew11727398694296164.png)
+![image.png](https://img.onedabuliu.cn/file/onew11727398694296164.png)
 
 值得一提的是这次打开检测站点的速度快了很多，没有再出现转圈或者是响应超时的情况，这样从侧面说明这个问题已经解决了。
 

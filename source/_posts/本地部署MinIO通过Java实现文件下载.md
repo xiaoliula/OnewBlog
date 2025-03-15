@@ -66,4 +66,4 @@ public class MinioDownloader {
 }
 ```
 # 2.运行结果
-![image.png](https://img.onew.us.kg/file/11725862526867593.png)
+![image.png](https://img.onedabuliu.cn/file/11725862526867593.png)

@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 学习是进步的阶梯✨
-  avatarImg: https://img.onew.us.kg/file/1741045424366_logo.jpg
+  avatarImg: https://img.onedabuliu.cn/file/1741045424366_logo.jpg
   avatarSkills:
     left:
       - 🎮 游戏与虚拟世界探索者
@@ -43,8 +43,8 @@
   map:
     title: 我现在住在
     StrengthenTitle: 中国，重庆市
-    background: https://img.onew.us.kg/file/1741150130115_image.png
-    backgroundDark: https://img.onew.us.kg/file/1741150130115_image.png
+    background: https://img.onedabuliu.cn/file/1741150130115_image.png
+    backgroundDark: https://img.onedabuliu.cn/file/1741150130115_image.png
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2001
@@ -55,7 +55,7 @@
   personalities:
     author_name: 执政官
     personality_type: ESFJ-A
-    photo_url: https://img.onew.us.kg/file/1741150130115_image.png
+    photo_url: https://img.onedabuliu.cn/file/1741150130115_image.png
     personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
     name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
   maxim:
@@ -70,35 +70,35 @@
     game_tips: 爱好游戏
     game_title: CrossFire
     game_uid: ""
-    game_bg: https://img.onew.us.kg/file/1741009487147_cf.jpg
+    game_bg: https://img.onedabuliu.cn/file/1741009487147_cf.jpg
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番
     comic_list:
       - name: 犬夜叉
         href: https://www.bilibili.com/bangumi/play/ss4687?spm_id_from=333.1387.0.0
-        cover: https://img.onew.us.kg/file/1741047807436_犬夜叉.webp
+        cover: https://img.onedabuliu.cn/file/1741047807436_犬夜叉.webp
       - name: 鬼灭之刃
         href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
         cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
       - name: 关于我转生变成史莱姆这档事
         href: https://www.bilibili.com/bangumi/play/ss25739?spm_id_from=333.337.0.0
-        cover: https://img.onew.us.kg/file/1741047801333_关于我转生变成史莱姆这档事.webp
+        cover: https://img.onedabuliu.cn/file/1741047801333_关于我转生变成史莱姆这档事.webp
       - name: 关于我转生变成史莱姆这档事 转生史莱姆日记
         href: https://www.bilibili.com/bangumi/play/ss38221?spm_id_from=333.337.0.0
-        cover: https://img.onew.us.kg/file/1741047802896_关于我转生变成史莱姆这档事 转生史莱姆日记.webp    
+        cover: https://img.onedabuliu.cn/file/1741047802896_关于我转生变成史莱姆这档事 转生史莱姆日记.webp    
       - name: 因为太怕痛就全点防御力了
         href: https://www.bilibili.com/bangumi/media/md28224137
-        cover: https://img.onew.us.kg/file/1741047802610_因为太怕痛就全点防御力了.webp  
+        cover: https://img.onedabuliu.cn/file/1741047802610_因为太怕痛就全点防御力了.webp  
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://img.onew.us.kg/file/1741047768079_638f5f05ce1f7.jpg
+    like_bg: https://img.onedabuliu.cn/file/1741047768079_638f5f05ce1f7.jpg
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
     music_title: 汪苏泷、欧美流行、国风
-    music_bg: https://img.onew.us.kg/file/1741047728627_汪苏泷.jpg
+    music_bg: https://img.onedabuliu.cn/file/1741047728627_汪苏泷.jpg
     music_link: /music
   reward_list:
     - name: Onew

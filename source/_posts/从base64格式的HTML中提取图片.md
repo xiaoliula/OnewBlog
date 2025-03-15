@@ -12,9 +12,9 @@ tags:
 categories: 学习
 keywords: 
 description:
-top_img: https://img.onew.us.kg/file/onew1173332798077863.jpg
+top_img: https://img.onedabuliu.cn/file/onew1173332798077863.jpg
 comments: true
-cover: https://img.onew.us.kg/file/onew1173332798077863.jpg
+cover: https://img.onedabuliu.cn/file/onew1173332798077863.jpg
 toc:
 toc_number:
 toc_style_simple:
@@ -71,5 +71,5 @@ for i, base64_data in enumerate(base64_images):
 
 ```
 # 效果演示
-![onew11733320984924734.png](https://img.onew.us.kg/file/onew11733328032136841.png)
-![onew11733321012025315.png](https://img.onew.us.kg/file/onew11733328040703473.png)
+![onew11733320984924734.png](https://img.onedabuliu.cn/file/onew11733328032136841.png)
+![onew11733321012025315.png](https://img.onedabuliu.cn/file/onew11733328040703473.png)
