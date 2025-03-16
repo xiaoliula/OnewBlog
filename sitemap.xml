@@ -20,6 +20,24 @@
   </url>
   
   <url>
+    <loc>https://blog.onedabuliu.cn/tags/</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onedabuliu.cn/thousand/</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onedabuliu.cn/manifest.json</loc>
     
     <lastmod>2025-03-16</lastmod>
@@ -65,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onedabuliu.cn/tags/</loc>
+    <loc>https://blog.onedabuliu.cn/dailyPhoto/</loc>
     
     <lastmod>2025-03-16</lastmod>
     
@@ -74,7 +92,34 @@
   </url>
   
   <url>
-    <loc>https://blog.onedabuliu.cn/thousand/</loc>
+    <loc>https://blog.onedabuliu.cn/equipment/</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onedabuliu.cn/essay/</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onedabuliu.cn/fcircle/</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onedabuliu.cn/about/</loc>
     
     <lastmod>2025-03-16</lastmod>
     
@@ -120,51 +165,6 @@
   
   <url>
     <loc>https://blog.onedabuliu.cn/copyright/</loc>
-    
-    <lastmod>2025-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onedabuliu.cn/dailyPhoto/</loc>
-    
-    <lastmod>2025-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onedabuliu.cn/equipment/</loc>
-    
-    <lastmod>2025-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onedabuliu.cn/essay/</loc>
-    
-    <lastmod>2025-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onedabuliu.cn/fcircle/</loc>
-    
-    <lastmod>2025-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onedabuliu.cn/about/</loc>
     
     <lastmod>2025-03-16</lastmod>
     
