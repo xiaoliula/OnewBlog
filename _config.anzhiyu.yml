@@ -41,6 +41,14 @@ nav:
   travelling: true
   clock: false
   menu:
+    - title: 网页
+      item:
+        - name: NAS
+          link: https://nas.onedabuliu.cn/
+          icon: /img/Nas-DSM.png
+        - name: Sun-Panel
+          link: https://sunpanel.onedabuliu.cn/
+          icon: /img/sun-panel icon.ico
     - title: 项目
       item:
         - name: 图床
