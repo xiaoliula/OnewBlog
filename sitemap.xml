@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>https://blog.onedabuliu.cn/privacy/</loc>
-    
-    <lastmod>2025-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onedabuliu.cn/tags/</loc>
     
     <lastmod>2025-03-16</lastmod>
@@ -83,16 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onedabuliu.cn/essay/</loc>
-    
-    <lastmod>2025-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onedabuliu.cn/fcircle/</loc>
+    <loc>https://blog.onedabuliu.cn/privacy/</loc>
     
     <lastmod>2025-03-16</lastmod>
     
@@ -165,6 +147,24 @@
   
   <url>
     <loc>https://blog.onedabuliu.cn/equipment/</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onedabuliu.cn/essay/</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onedabuliu.cn/fcircle/</loc>
     
     <lastmod>2025-03-16</lastmod>
     
@@ -607,13 +607,6 @@
   </url>
   
   <url>
-    <loc>https://blog.onedabuliu.cn/tags/MySQL/</loc>
-    <lastmod>2025-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onedabuliu.cn/tags/Vue/</loc>
     <lastmod>2025-03-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -622,6 +615,13 @@
   
   <url>
     <loc>https://blog.onedabuliu.cn/tags/HTML-CSS-JS/</loc>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onedabuliu.cn/tags/MySQL/</loc>
     <lastmod>2025-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
