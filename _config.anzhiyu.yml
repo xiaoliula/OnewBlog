@@ -41,31 +41,21 @@ nav:
   travelling: true
   clock: false
   menu:
-    - title: 网页
-      item:
-        - name: 个人主页
-          link: https://xiaoliula.github.io/homepage-main/
-          icon: /img/favicon.ico
-        - name: Nas
-          link: https://nas.onew.us.kg/
-          icon: /img/Nas-DSM.png
-        - name: 服务器监测
-          link: https://sunpanel.onew.us.kg/
-          icon: /img/sun-panel icon.ico
     - title: 项目
       item:
-        - name: Immich
-          link: https://immich.onew.us.kg/
-          icon: /img/Immich.svg
-        - name: 文件中转站
-          link: https://file.onew.us.kg
-          icon: /img/file_upload.svg
         - name: 图床
           link: https://img.onedabuliu.cn/
           icon: /img/favicon.ico
-        - name: 一起看漫画
-          link: https://wml.onedabuliu.us.kg/
-          icon: /img/wml icon.ico
+        - name: Immich
+          link: https://immich.onedabuliu.cn/
+          icon: /img/Immich.svg
+        - name: 文件中转站
+          link: https://file.onedabuliu.cn
+          icon: /img/file_upload.svg
+
+        # - name: 一起看漫画
+        #   link: https://wml.onedabuliu.us.kg/
+        #   icon: /img/wml icon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -265,7 +255,7 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href: https://blog.onew.us.kg/
+  author_href: https://blog.onedabuliu.cn/
   location: 重庆
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
