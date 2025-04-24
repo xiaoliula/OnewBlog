@@ -5,7 +5,7 @@
   diytitle: undefined,
   LA51: {"enable":true,"ck":"3LQs4suxrhatfePH","LingQueMonitorID":"3LQs4suxrhatfePH"},
   greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋, 宝贝","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
-  twikooEnvId: 'https://comment.onedabuliu.cn/',
+  twikooEnvId: 'http://comment.onew.us.kg',
   commentBarrageConfig:{"enable":true,"maxBarrage":1,"barrageTime":4000,"accessToken":"e14f3728a995335151fdb83aa636e2fe","mailMd5":""},
   music_page_default: "nav_music",
   root: '/',
@@ -335,7 +335,7 @@ queueMicrotask(() => {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://comment.onedabuliu.cn/',
+      envId: 'http://comment.onew.us.kg',
       region: '',
       onCommentLoaded: () => {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -352,7 +352,7 @@ queueMicrotask(() => {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://comment.onedabuliu.cn/',
+      envId: 'http://comment.onew.us.kg',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -394,7 +394,7 @@ queueMicrotask(() => {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'https://comment.onedabuliu.cn/',
+        envId: 'http://comment.onew.us.kg',
         region: '',
         pageSize: 6,
         includeReply: true
