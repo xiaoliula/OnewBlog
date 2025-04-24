@@ -20,24 +20,6 @@
   </url>
   
   <url>
-    <loc>https://blog.onedabuliu.cn/tags/</loc>
-    
-    <lastmod>2025-04-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onedabuliu.cn/thousand/</loc>
-    
-    <lastmod>2025-04-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onedabuliu.cn/manifest.json</loc>
     
     <lastmod>2025-04-24</lastmod>
@@ -83,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onedabuliu.cn/essay/</loc>
+    <loc>https://blog.onedabuliu.cn/tags/</loc>
     
     <lastmod>2025-04-24</lastmod>
     
@@ -92,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onedabuliu.cn/fcircle/</loc>
+    <loc>https://blog.onedabuliu.cn/thousand/</loc>
     
     <lastmod>2025-04-24</lastmod>
     
@@ -165,6 +147,24 @@
   
   <url>
     <loc>https://blog.onedabuliu.cn/equipment/</loc>
+    
+    <lastmod>2025-04-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onedabuliu.cn/essay/</loc>
+    
+    <lastmod>2025-04-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onedabuliu.cn/fcircle/</loc>
     
     <lastmod>2025-04-24</lastmod>
     
@@ -628,6 +628,13 @@
   </url>
   
   <url>
+    <loc>https://blog.onedabuliu.cn/tags/%E9%82%A3%E4%BA%9B%E5%B0%8F%E4%BA%8B%E5%84%BF/</loc>
+    <lastmod>2025-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onedabuliu.cn/tags/Tag-Plugins/</loc>
     <lastmod>2025-04-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -636,13 +643,6 @@
   
   <url>
     <loc>https://blog.onedabuliu.cn/tags/Hexo/</loc>
-    <lastmod>2025-04-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onedabuliu.cn/tags/%E9%82%A3%E4%BA%9B%E5%B0%8F%E4%BA%8B%E5%84%BF/</loc>
     <lastmod>2025-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
