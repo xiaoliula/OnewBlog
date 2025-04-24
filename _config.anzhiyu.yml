@@ -390,7 +390,7 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://comment.onedabuliu.cn/
+  envId: http://comment.onew.us.kg
   region:
   visitor: false
   option:
