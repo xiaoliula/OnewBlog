@@ -8,9 +8,9 @@ tags:
 categories: 学习
 keywords: 
 description:
-top_img: https://img.onedabuliu.cn/file/onew11726799017300284.jpg
+top_img: https://img.onew.us.kg/file/onew11726799017300284.jpg
 comments: true
-cover: https://img.onedabuliu.cn/file/onew11726799017300284.jpg
+cover: https://img.onew.us.kg/file/onew11726799017300284.jpg
 toc:
 toc_number:
 toc_style_simple:
@@ -206,6 +206,6 @@ docker镜像地址：https://one-w.us.kg
 {% endtimeline %}
 {% timeline 2025,blue %}
 <!-- timeline 03-15 -->
-docker镜像地址：https://docker.onedabuliu.cn/
+docker镜像地址：https://docker.onew.us.kg/
 <!-- endtimeline -->
 {% endtimeline %}

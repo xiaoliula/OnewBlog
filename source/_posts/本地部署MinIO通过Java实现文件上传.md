@@ -105,4 +105,4 @@ public class MinioUploader {
 }
 ```
 # 上传结果
-![image.png](https://img.onedabuliu.cn/file/11725862415730969.png)
+![image.png](https://img.onew.us.kg/file/11725862415730969.png)

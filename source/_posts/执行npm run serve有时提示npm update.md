@@ -31,7 +31,7 @@ ai: 文章围绕 “npm update check failed” 错误展开，虽该错误无关
 # 背景
 这个错误虽说无关紧要，但有时候会出现就感觉不爽。
 # 错误提示
-![image.png](https://img.onedabuliu.cn/file/11725866378513924.png)
+![image.png](https://img.onew.us.kg/file/11725866378513924.png)
 # 解决方法
 在网络上查阅资料后才知道是因为文件夹权限的问题
 1. 删除目录configstore

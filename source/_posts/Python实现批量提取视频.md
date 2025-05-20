@@ -34,8 +34,8 @@ ai: 博主在使用 nas 时，因 immich 无法批量筛选视频，决定下载
 # 前言
 最近在玩nas，但是之前把视频和照片都上传到immich了，因为我可以直接在手机中上传照片，但是因为手机内存不够就把视频全删了的，现在只需要把视频下载下来上传到nas中就OK。但是现在问题是immich这东西不支持批量删选视频，只能全选照片和视频，而且一共有50个G的照片和视频，视频只有三百八十几个，手动提取未免太看得起我了。于是现在就有了下载全部内容，然后待会儿就用Python代码批量提取视频到指定文件夹。（前提：安装7.zip解压缩软件并且能够找到安装目录）
 
-![image.png](https://img.onedabuliu.cn/file/11725863551847104.png)
-![image.png](https://img.onedabuliu.cn/file/11725863566415301.png)
+![image.png](https://img.onew.us.kg/file/11725863551847104.png)
+![image.png](https://img.onew.us.kg/file/11725863566415301.png)
 
 #  Python代码批量提取指定格式的视频
 ```language
@@ -119,13 +119,13 @@ set PYTHONIOENCODING=utf-8
 ```
 再执行Python，执行一次就行了，运行别的代码也不会中文乱码了（通过 PYTHONIOENCODING 环境变量解决）。
 
-![image.png](https://img.onedabuliu.cn/file/11725863814762400.png)
-![image.png](https://img.onedabuliu.cn/file/11725863834614766.png)
-![image.png](https://img.onedabuliu.cn/file/11725863848574105.png)
+![image.png](https://img.onew.us.kg/file/11725863814762400.png)
+![image.png](https://img.onew.us.kg/file/11725863834614766.png)
+![image.png](https://img.onew.us.kg/file/11725863848574105.png)
 
 # 结果
 一共389个视频，提取出来386个视频，一共23G，有3个没有提取到，不知道是不是格式问题，总的来说问题不大。
 
-![image.png](https://img.onedabuliu.cn/file/1172586389038756.png)
-![image.png](https://img.onedabuliu.cn/file/11725863906661140.png)
-![image.png](https://img.onedabuliu.cn/file/11725863934692421.png)
+![image.png](https://img.onew.us.kg/file/1172586389038756.png)
+![image.png](https://img.onew.us.kg/file/11725863906661140.png)
+![image.png](https://img.onew.us.kg/file/11725863934692421.png)

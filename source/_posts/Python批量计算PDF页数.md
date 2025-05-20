@@ -7,9 +7,9 @@ tags:
 categories: 学习
 keywords: 
 description:
-top_img: https://img.onedabuliu.cn/file/onew11730203304146582.png
+top_img: https://img.onew.us.kg/file/onew11730203304146582.png
 comments: true
-cover: https://img.onedabuliu.cn/file/onew11730203304146582.png
+cover: https://img.onew.us.kg/file/onew11730203304146582.png
 toc:
 toc_number:
 toc_style_simple:
@@ -72,4 +72,4 @@ count_pdf_pages 函数返回一个包含每个 PDF 文件页数的字典 pdf_pag
 
 代码中使用 total_pages += page_count 来累计页数。
 # 运行效果
-![image.png](https://img.onedabuliu.cn/file/onew11730203304146582.png)
+![image.png](https://img.onew.us.kg/file/onew11730203304146582.png)

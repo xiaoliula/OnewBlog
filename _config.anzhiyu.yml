@@ -44,21 +44,21 @@ nav:
     - title: 网页
       item:
         - name: NAS
-          link: https://nas.onedabuliu.cn/
+          link: https://nas.onew.us.kg/
           icon: /img/Nas-DSM.png
         - name: Sun-Panel
-          link: https://sunpanel.onedabuliu.cn/
+          link: https://sunpanel.onew.us.kg/
           icon: /img/sun-panel icon.ico
     - title: 项目
       item:
         - name: 图床
-          link: https://img.onedabuliu.cn/
+          link: https://img.onew.us.kg/
           icon: /img/favicon.ico
         - name: Immich
-          link: https://immich.onedabuliu.cn/
+          link: https://immich.onew.us.kg/
           icon: /img/Immich.svg
         - name: 文件中转站
-          link: https://file.onedabuliu.cn
+          link: https://file.onew.us.kg
           icon: /img/file_upload.svg
 
         # - name: 一起看漫画
@@ -170,7 +170,7 @@ favicon: /img/favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://img.onedabuliu.cn/file/1741045424366_logo.jpg
+  img: https://img.onew.us.kg/file/1741045424366_logo.jpg
   effect: false
 
 # Disable all banner image
@@ -203,7 +203,7 @@ error_img:
 error_404:
   enable: true
   subtitle: "请尝试站内搜索寻找文章"
-  background: https://img.onedabuliu.cn/file/1741045550053_请尝试站内搜索寻找文章.gif
+  background: https://img.onew.us.kg/file/1741045550053_请尝试站内搜索寻找文章.gif
 
 post_meta:
   page: # Home Page
@@ -276,10 +276,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://img.onedabuliu.cn/file/1741152966290_wechatpay.jpg
+    - img: https://img.onew.us.kg/file/1741152966290_wechatpay.jpg
       link:
       text: 微信
-    - img: https://img.onedabuliu.cn/file/1741152958796_alipay.jpg
+    - img: https://img.onew.us.kg/file/1741152958796_alipay.jpg
       link:
       text: 支付宝
 
@@ -560,7 +560,7 @@ footer:
     linkList:
       # - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
       #   text: 主题
-      - link: https://img.onedabuliu.cn/
+      - link: https://img.onew.us.kg/
         text: 图床
       - link: https://beian.miit.gov.cn/
         text: 渝ICP备2024042160号-1
@@ -821,7 +821,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://img.onedabuliu.cn/file/1741045424366_logo.jpg # 自定加载动画义头像
+  avatar: https://img.onew.us.kg/file/1741045424366_logo.jpg # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1124,7 +1124,7 @@ friends_vue:
   enable: false
   vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.2/friends/index.f9a2b8d2.js
   apiurl: https://friends.anheyu.com/ # 朋友圈后端地址
-  top_background: https://img.onedabuliu.cn/file/1741069370097_bg.jpg
+  top_background: https://img.onew.us.kg/file/1741069370097_bg.jpg
 
 # 深色模式粒子效果canvas
 universe:

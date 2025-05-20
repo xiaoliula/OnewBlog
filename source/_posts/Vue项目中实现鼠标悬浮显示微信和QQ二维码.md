@@ -13,9 +13,9 @@ tags:
 categories: 学习
 keywords: 
 description:
-top_img: https://img.onedabuliu.cn/file/onew1173332798077863.jpg
+top_img: https://img.onew.us.kg/file/onew1173332798077863.jpg
 comments: true
-cover: https://img.onedabuliu.cn/file/onew1173332798077863.jpg
+cover: https://img.onew.us.kg/file/onew1173332798077863.jpg
 toc:
 toc_number:
 toc_style_simple:
@@ -126,6 +126,6 @@ export default {
 </script>
 ```
 # 演示效果
-![onew1173347444423337.jpg](https://img.onedabuliu.cn/file/onew1173347444423337.webp)
+![onew1173347444423337.jpg](https://img.onew.us.kg/file/onew1173347444423337.webp)
 # 结语
 有空慢慢美化博客，一步一个脚印慢慢来

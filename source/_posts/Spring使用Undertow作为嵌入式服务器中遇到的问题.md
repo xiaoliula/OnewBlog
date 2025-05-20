@@ -50,5 +50,5 @@ The maximum size 1048576 for an individual file in a multipart request was excee
 一开始以为是Java代码本地的配置覆盖了application.yml或代码中设置了最大文件，但是排查了很久都没有发现问题。然后又去排查检查是否缺少其他 Spring Boot 自动配置与 Undertow 文件上传大小的配置发生冲突，但是，排查完了发现都不是这些问题。
 # 解决方法：
 最后都准备放弃了，想着再检查一遍application.yml配置文件，结果发现是缩进的原因，servlet没有和datasource对齐！！就很气，也很搞笑，就那么个简单的问题，一直迷迷糊糊的没有找到。。。
-![image.png](https://img.onedabuliu.cn/file/11725863455928468.png)
+![image.png](https://img.onew.us.kg/file/11725863455928468.png)
 

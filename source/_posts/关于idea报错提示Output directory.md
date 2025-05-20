@@ -54,4 +54,4 @@ D:\XXX\src\main\java\com\XXX\XXX\base\BaseApiController.java:11:8java: 写入com
 确保项目结构正确，所有源代码和资源文件都位于正确的目录中。检查是否有其他因素导致了构建错误，比如文件路径错误或者文件损坏。
 
 ## 方法五：查看导出的路径是否正确（本人用此方法解决）
-![image.png](https://img.onedabuliu.cn/file/11725861551367686.png)
+![image.png](https://img.onew.us.kg/file/11725861551367686.png)
