@@ -1,0 +1,46 @@
+- class_name: 好物
+  description: 实物装备推荐
+  tip: 跟 Onew 一起享受科技带来的乐趣
+  top_background: https://bu.dusays.com/2023/07/05/64a4c38842b7a.webp
+  good_things:
+    - title: 生产力
+      description: 提升自己生产效率的硬件设备
+      equipment_list:
+        - name: Redmi Book 14 II
+          specification: Intel 酷睿i5 10th/ 512GB
+          description: 屏幕显示效果好、色彩准确、对比度强、性能强劲、续航优秀。可以用来开发和设计。
+          image: /img/RedmiBook 14 Ⅱ(i5 10th 512GB MX350).png
+          link: /img/RedmiBook 14 Ⅱ(i5 10th 512GB MX350).png
+        - name: HUAWEI Nova 7
+          specification: 绮境森林 / 128G
+          description: 五年的老伙计了，性能依然强劲，续航依然优秀，拍照效果也不错，现在仍然是我的主力机。
+          image: /img/HUAWEINova7.png
+          link: /img/HUAWEINova7.png
+        - name: Realme GT Neo
+          specification: 最终幻想 / 128G
+          description: 一款性价比极高的手机，是我的备用机。
+          image: /img/Realme GT Neo.png
+          link: /img/Realme GT Neo.png
+        - name: NAS
+          specification:  群辉-蜗牛星际
+          description: 一款性价比极高的NAS，可以用来存储文件、备份数据、搭建私有云、搭建个人网站等。
+          image: /img/NAS.png
+          link: /img/NAS.png
+        - name: 狼蛛（AULA）
+          specification:  F87客制化机械键盘
+          description: 一款性价比极高的机械键盘，手感好，打字舒适，外观漂亮。
+          image: /img/狼蛛F87.png
+          link: /img/狼蛛F87.png
+    - title: 穿戴
+      description: 用来出行的实物及设备
+      equipment_list:
+        - name: 倍思E3
+          specification: 白色
+          description: 一款性价比极高的耳机，音质好，续航优秀，佩戴舒适。
+          image: /img/倍思 E3.png
+          link: /img/倍思 E3.png
+        - name: HUAWEI WATCH Fit 3
+          specification: 原野绿
+          description: 准备买的一款智能手表，功能强大，外观漂亮。
+          image: /img/HUAWEI Watch Fit 3.png
+          link: /img/HUAWEI Watch Fit 3.png

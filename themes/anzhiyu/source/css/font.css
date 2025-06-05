@@ -1,0 +1,6 @@
+/* 字体css */
+@font-face{
+    font-family: 'CuteFont';
+    font-display: swap;
+    src: url('/font/font.woff2') format("woff2");
+}

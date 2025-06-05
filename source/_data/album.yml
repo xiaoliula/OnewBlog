@@ -1,0 +1,130 @@
+- class_name: 我的风景照
+  path_name: /wordScenery
+  type: 1
+  description: 我喜欢的一些风景🌇。
+  cover: https://img.onew.us.kg/file/57734817ee0d640f61d27093bd95a0a.jpg
+  top_background: https://img.onew.us.kg/file/d6ddc632b9ad5821526169710147f3f.jpg
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2023/4/7 18:00:00
+      content: 小东街的记忆。
+      address: 重庆市南川区
+      from: Onew
+      image:
+        - https://img.onew.us.kg/file/20d2243f20cb971acd17cc4b9c989ae.jpg
+        - https://img.onew.us.kg/file/ace4e6fd8f119eda3f65614788ae303.jpg
+        - https://img.onew.us.kg/file/6397d4645703f167d56f9176ff16c72.jpg
+        - https://img.onew.us.kg/file/d6ddc632b9ad5821526169710147f3f.jpg
+        - https://img.onew.us.kg/file/c2bc724714ab76bdf8f3bfe2c754686.jpg
+        - https://img.onew.us.kg/file/5baee5690ad48d95b520d1aeb2f33b9.jpg
+        - https://img.onew.us.kg/file/44395731f9c0aada3732ce09dce2493.jpg
+    - date: 2023/4/7 18:00:00
+      content: 秦皇岛的日落。
+      address: 河北省秦皇岛市
+      from: Onew
+      image:
+        - https://img.onew.us.kg/file/8397e943a60329506e161faa3b751ae.jpg
+        - https://img.onew.us.kg/file/384ef11eb063b40b7a572580ff293ef.jpg
+        - https://img.onew.us.kg/file/9c0d6bee7aa7dfa56b129181b23f4f9.jpg
+        - https://img.onew.us.kg/file/352b0e7f1c9dbe07ecb10afe8f3d457.jpg
+
+- class_name: 我的日常
+  path_name: /dailyPhoto
+  type: 2
+  description: 有关我自己的一些沙雕生活与有趣的事情😎。
+  cover: https://img.onew.us.kg/file/6fa0c174bac2b77e55fa81d5c59e94e.jpg
+  top_background: https://img.onew.us.kg/file/6fa0c174bac2b77e55fa81d5c59e94e.jpg
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2025/1/6 20:12:00
+      content: 在弟弟家吃的生蚝。
+      address: 重庆市南川区
+      from: Onew
+      image:
+        - https://img.onew.us.kg/file/67bf8eab6a97136139550018c8f4695.jpg
+    - date: 2025/1/25 11:54:00
+      content: 参加叔叔的生日
+      address: 四川省成都市
+      from: Onew
+      image:
+        - https://img.onew.us.kg/file/6fa0c174bac2b77e55fa81d5c59e94e.jpg
+    - date: 2025/2/5 2:23:00
+      content: 和哥哥姐姐K完哥吃个烧烤
+      address: 重庆市南川区
+      from: Onew
+      image:
+        - https://img.onew.us.kg/file/dd8cffba7bc4745cb8732f6ce5c8549.jpg
+    - date: 2025/2/12 18:40:00
+      content: 送哥哥去火车站玩了一天，哥哥请吃的海鲜自助
+      address: 重庆市南坪区
+      from: Onew
+      image:
+        - https://img.onew.us.kg/file/07ca9ada7e87cbe2ee8b289c58956a6.jpg
+    - date: 2025/3/8 21:45:00
+      content: 哥哥出去玩给我带的烤苕皮
+      address: 重庆市南川区
+      from: Onew
+      image:
+        - https://img.onew.us.kg/file/e3b83960d63468c88c70a0dcc02a98d.jpg
+    - date: 2025/3/13 19:47:29
+      content: 给外婆过生日😄
+      address: 重庆市南川区
+      from: Onew
+      image:
+        - https://img.onew.us.kg/file/1742050005034_e747773382511dbe56c504d3ce7f4da.jpg
+        - https://img.onew.us.kg/file/1742050004954_2984afb2f14bd1ff7ee7dfa8cbe200c.jpg
+
+- class_name: 一眼万年
+  path_name: /thousand
+  type: 3
+  description: 亲爱的, 热爱的, 这是我的一眼万年💖。
+  cover: https://img.onew.us.kg/file/034bbcdf6086895935971e087f71aa6.jpg
+  top_background: https://img.onew.us.kg/file/034bbcdf6086895935971e087f71aa6.jpg
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2023/9/2 8:34:00
+      content: 没有对象总该有个喜欢的头像吧
+      address: 黑龙江省哈尔滨市
+      from: Onew
+      image:
+        - https://img.onew.us.kg/file/034bbcdf6086895935971e087f71aa6.jpg
+        - https://img.onew.us.kg/file/3a7a2a09828c9b8b37897eb98ecdb98.jpg
+
+- class_name: 收藏的壁纸
+  path_name: /wallpaper
+  type: 4
+  description: 部分博主很爱的壁纸🖼️。
+  cover: https://img.onew.us.kg/file/1741069370097_bg.jpg
+  top_background: https://img.onew.us.kg/file/1741069370097_bg.jpg
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2024年/4/13 9:12
+      content: 悬浮岛屿与辽阔云海营造出梦幻氛围。
+      address: 重庆市南川区
+      from: Onew
+      image:
+        - https://img.onew.us.kg/file/1741069370097_bg.jpg

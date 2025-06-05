@@ -1,0 +1,159 @@
+//- if site.data.essay
+//-   each i in site.data.essay
+//-     if i.home_essay
+//-       - let onclick_value = theme.pjax.enable ? `pjax.loadUrl("/essay/");` : '';
+//-       - let href_value = theme.pjax.enable ? 'javascript:void(0);' : `/essay/`;
+//-       #bbTimeList.bbTimeList.container
+//-           i.anzhiyufont.anzhiyu-icon-jike.bber-logo.fontbold(onclick=onclick_value, title="即刻短文", href=href_value, aria-hidden="true")
+//-           #bbtalk.swiper-container.swiper-no-swiping.essay_bar_swiper_container(tabindex="-1")
+//-             #bber-talk.swiper-wrapper(onclick=onclick_value)
+//-               each i in site.data.essay
+//-                 each item, index in i.essay_list
+//-                   if index < 10
+//-                     - var contentText = item.image ? item.content + ' [图片]' : (item.video ? item.content + ' [视频]' : item.content)
+//-                     a.li-style.swiper-slide(href=href_value)= contentText
+//-           a.bber-gotobb.anzhiyufont.anzhiyu-icon-circle-arrow-right( onclick=onclick_value, href=href_value, title="查看全文")
+
+//-       script(src=url_for(theme.home_top.swiper.swiper_js))
+
+
+if site.data.essay
+  each i in site.data.essay
+    if i.home_essay
+      - let onclick_value = theme.pjax.enable ? `pjax.loadUrl("/essay/");` : '';
+      - let href_value = theme.pjax.enable ? 'javascript:void(0);' : `/essay/`;
+      #bbTimeList.bbTimeList.container
+          i.anzhiyufont.anzhiyu-icon-jike.bber-logo.fontbold(onclick=onclick_value, title="即刻短文", href=href_value, aria-hidden="true")
+          #bbtalk.swiper-container.swiper-no-swiping.essay_bar_swiper_container(tabindex="-1")
+            #bber-talk.swiper-wrapper(onclick=onclick_value)
+              each i in site.data.essay
+                each item, index in i.essay_list
+                  if index < 10
+                    - var contentText = item.image ? item.content + ' [图片]' : (item.video ? item.content + ' [视频]' : item.content)
+                    a.li-style.swiper-slide(href=href_value)= contentText
+          a.bber-gotobb.anzhiyufont.anzhiyu-icon-circle-arrow-right(onclick=onclick_value, href=href_value, title="查看全文")
+          img.con-animals.entered.loaded(id="new-con-animals" src="")
+      script(src=url_for(theme.home_top.swiper.swiper_js))
+
+style.
+  #bbTimeList {
+    position: relative;
+  }
+
+  .con-animals {
+    display: block;
+    position: absolute;
+    max-width: 260px;
+    top: -85px;
+    z-index: 2;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .con-animals {
+      display: none;
+    }
+  }
+
+script.
+  // 将lastImageUrl移到全局作用域
+  window.lastImageUrl = window.lastImageUrl || '';
+
+  function setRandomImage() {
+    const img = document.getElementById('new-con-animals');
+    const imageUrls = [
+      "https://i1.wp.com/ruom.wuaze.com/i/2024/10/18/901216.webp",
+      "https://i1.wp.com/ruom.wuaze.com/i/2024/10/18/074167.webp",
+      "https://i1.wp.com/ruom.wuaze.com/i/2024/10/19/759434.webp",
+      "https://i1.wp.com/ruom.wuaze.com/i/2024/10/19/526748.webp",
+      "https://i1.wp.com/ruom.wuaze.com/i/2024/10/18/429029.webp"
+    ];
+
+    let randomImage;
+    do {
+      randomImage = imageUrls[Math.floor(Math.random() * imageUrls.length)];
+    } while (randomImage === window.lastImageUrl);
+
+    window.lastImageUrl = randomImage;
+
+    if (img) {
+      img.src = randomImage;
+    }
+  }
+
+  function initializeDragImage() {
+    const img = document.getElementById('new-con-animals');
+    const container = document.getElementById('bbTimeList');
+
+    if (!img || !container) return;
+
+    if (!window.lastImageUrl) {
+      setRandomImage();
+    } else {
+      img.src = window.lastImageUrl;
+    }
+
+    let isDragging = false, wasDragged = false, startX, startLeft;
+    const containerWidth = container.clientWidth;
+    const imgWidth = img.clientWidth;
+    const maxLeft = containerWidth - imgWidth;
+    const edgeThreshold = 20;
+    let lastLeft = parseInt(localStorage.getItem('imgPositionLeft')) || 0;
+    lastLeft = Math.min(maxLeft, Math.max(0, lastLeft));
+    img.style.left = `${lastLeft}px`;
+
+    const savePosition = (left) => localStorage.setItem('imgPositionLeft', left);
+
+    img.addEventListener('click', () => {
+      if (!wasDragged) {
+        let currentLeft = lastLeft;
+        let newLeft;
+
+        if (currentLeft <= edgeThreshold) {
+          newLeft = Math.min(currentLeft + 200, maxLeft);
+        } else if (currentLeft >= maxLeft - edgeThreshold) {
+          newLeft = Math.max(currentLeft - 200, 0);
+        } else {
+          newLeft = currentLeft + (Math.random() < 0.5 ? -200 : 200);
+          newLeft = Math.max(0, Math.min(newLeft, maxLeft));
+        }
+
+        if (newLeft !== lastLeft) {
+          lastLeft = newLeft;
+          img.style.left = `${newLeft}px`;
+          savePosition(newLeft);
+        }
+      }
+    });
+
+    img.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      wasDragged = false;
+      startX = e.clientX;
+      startLeft = lastLeft;
+      img.style.transition = 'none';
+
+      const onMouseMove = (e) => {
+        if (!isDragging) return;
+        wasDragged = true;
+        const offsetX = e.clientX - startX;
+        lastLeft = Math.max(0, Math.min(startLeft + offsetX, maxLeft));
+        requestAnimationFrame(() => {
+          img.style.left = `${lastLeft}px`;
+        });
+      };
+
+      const onMouseUp = () => {
+        isDragging = false;
+        img.style.transition = 'left 0.5s ease-in-out';
+        savePosition(lastLeft);
+        document.removeEventListener('mousemove', onMouseMove);
+        document.removeEventListener('mouseup', onMouseUp);
+      };
+
+      document.addEventListener('mousemove', onMouseMove);
+      document.addEventListener('mouseup', onMouseUp);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', initializeDragImage);
+  document.addEventListener('pjax:success', initializeDragImage);

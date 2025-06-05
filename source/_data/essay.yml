@@ -1,0 +1,13 @@
+- title: 即刻短文
+  subTitle: 咸鱼的日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 1000
+  home_essay: true
+  top_background: https://img.onew.us.kg/file/1741069370097_bg.jpg
+  essay_list:
+    - content: 以为时间已经过去了很久。
+      date: 2025/3/10
+      image:
+        - https://img.onew.us.kg/file/2277676613.jpeg
