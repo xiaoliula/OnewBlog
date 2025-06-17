@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.onew.us.kg/wordScenery/</loc>
+    <loc>https://blog.onew.us.kg/wallpaper/</loc>
     
     <lastmod>2025-06-17</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/wallpaper/</loc>
+    <loc>https://blog.onew.us.kg/wordScenery/</loc>
     
     <lastmod>2025-06-17</lastmod>
     
@@ -75,15 +75,6 @@
   
   <url>
     <loc>https://blog.onew.us.kg/privacy/</loc>
-    
-    <lastmod>2025-06-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/fcircle/</loc>
     
     <lastmod>2025-06-17</lastmod>
     
@@ -165,6 +156,15 @@
   
   <url>
     <loc>https://blog.onew.us.kg/essay/</loc>
+    
+    <lastmod>2025-06-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/fcircle/</loc>
     
     <lastmod>2025-06-17</lastmod>
     
