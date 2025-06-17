@@ -3,14 +3,14 @@ https://blog.onew.us.kg/wordScenery/
 https://blog.onew.us.kg/tags/
 https://blog.onew.us.kg/thousand/
 https://blog.onew.us.kg/manifest.json
-https://blog.onew.us.kg/link/
 https://blog.onew.us.kg/link/index%EF%BC%88%E5%8E%9F%E5%A7%8B%EF%BC%89
+https://blog.onew.us.kg/link/
 https://blog.onew.us.kg/music/
 https://blog.onew.us.kg/privacy/
 https://blog.onew.us.kg/about/
 https://blog.onew.us.kg/air-conditioner/
-https://blog.onew.us.kg/album/
 https://blog.onew.us.kg/categories/
+https://blog.onew.us.kg/album/
 https://blog.onew.us.kg/cookies/
 https://blog.onew.us.kg/copyright/
 https://blog.onew.us.kg/dailyPhoto/
