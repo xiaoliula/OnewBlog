@@ -8,6 +8,7 @@ script.
         el: '#twikoo-wrap',
         envId: '!{envId}',
         region: '!{region}',
+          path: location.pathname.replace(/index\.html$/, ''), // Remove index.html from path
         onCommentLoaded: () => {
           anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
         }

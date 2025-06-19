@@ -1142,7 +1142,7 @@ comment_barrage_config:
   # token，在控制台中获取
   accessToken: "e14f3728a995335151fdb83aa636e2fe"
   # 博主邮箱md5值
-  mailMd5: ""
+  mailMd5: "b2c6c90ddb175e7bf081cc75e7ed2b00ae9d95a58fd39bb5dd2bdd7d6a11f80d"
 
 # 左下角音乐配置项
 # https://github.com/metowolf/MetingJS
