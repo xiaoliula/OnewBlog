@@ -48,6 +48,11 @@ nav:
           link: https://img.onew.us.kg/
           icon: /img/favicon.ico
 
+# 昼夜切换按钮
+Day_night_toggle_button:
+  console: true # 中控台
+  nav: true # 导航栏
+
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
 mourn:
@@ -160,7 +165,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: false # "background: url() top / cover no-repeat"
+index_img: "background: url() top / cover no-repeat" # "background: url() top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: false
@@ -1037,7 +1042,7 @@ pangu:
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: true
-  field: site # site/post
+  field: psot # site/post
   placeholder:
   blur: true
   progressive: true
@@ -1263,6 +1268,7 @@ inject:
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/custom/schedule.css">
     - <link rel="stylesheet" href="/css/font.css" media="defer" onload="this.media='all'">
+    - - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"> # 首页一图流
 
   bottom:
     # 自定义js
@@ -1274,7 +1280,7 @@ inject:
     - <script src="/js/custom/schedule.js"></script>
     - <script src="https://open.lightxi.com/unpkg/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script>
     - <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.9.0-rc.1/echarts.min.js"></script> # 统计页面
-    - <script src="/js/charts.js"></script> # 词云图
+    - <script async data-pjax src="/js/imgloaded.js?1"></script> # 首页图片渐进式加载
 
 
 
@@ -1402,3 +1408,41 @@ friends_lite:
   error_img: /img/404.jpg  # 404图片 URL  
   top_background: https://img.onew.us.kg/file/1741069370097_bg.jpg  # 顶部背景图片 URL  
   top_tips: 欢迎来到我的朋友圈！！！        # 顶部提示文本
+
+  # hexo-safego安全跳转插件
+# see https://blog.liushen.fun/posts/1dfd1f41/
+hexo_safego:
+  # 基本功能设置
+  general:
+    enable: true                # 启用插件
+    enable_base64_encode: true  # 使用 Base64 编码
+    enable_target_blank: true   # 打开新窗口
+  # 安全设置
+  security:
+    url_param_name: 'u'         # URL 参数名
+    html_file_name: 'go.html'   # 重定向页面的文件名
+    ignore_attrs:               # 忽略处理的 HTML 属性
+      - 'data-fancybox'
+  # 容器与页面设置
+  scope:
+    apply_containers:           # 应用的容器选择器
+      - '#article-container'
+    apply_pages:                # 应用的页面路径
+      - "/posts/"
+      - "/devices/"
+    #exclude_pages:              # 排除的页面路径
+  # 域名白名单
+  whitelist:
+    domain_whitelist:           # 允许的白名单域名
+      - "blog.onew.us.kg"
+      - "onew.us.kg"
+  # 页面外观设置
+  appearance:
+    avatar: /img/logo.jpg       # 头像路径
+    title: "Onew's Blog"               # 页面标题
+    subtitle: "安全中心"         # 页面副标题
+    darkmode: false             # 是否启用深色模式
+    countdowntime: -1           # 倒计时秒数
+  # 调试设置
+  debug:
+    enable: false               # 启用调试模式

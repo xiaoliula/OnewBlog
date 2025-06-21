@@ -12,7 +12,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "cheerio": "^1.0.0",
+    "cheerio": "^1.1.0",
     "gulp": "^5.0.0",
     "hexo": "^7.3.0",
     "hexo-bilibili-bangumi": "^1.10.8",
@@ -30,7 +30,7 @@
     "hexo-renderer-marked": "^7.0.0",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
-    "hexo-safego": "^2.1.0",
+    "hexo-safego": "^2.2.2",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-wordcount": "^6.0.1",

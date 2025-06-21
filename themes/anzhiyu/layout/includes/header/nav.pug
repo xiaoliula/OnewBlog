@@ -27,6 +27,10 @@ nav#nav
     #menus
       !=partial('includes/header/menu_item', {}, {cache: true})
     #nav-right
+      if theme.Day_night_toggle_button.nav
+        #nav-naoDark
+          !=partial('includes/anzhiyu/Day_night_toggle_button', {}, {cache: true})
+
       if theme.nav.travelling
         .nav-button.only-home#travellings_button(title='随机前往一个开往项目网站')
           a.site-page(onclick='anzhiyu.totraveling()', title='随机前往一个开往项目网站', href='javascript:void(0);', rel='external nofollow', data-pjax-state='external')
