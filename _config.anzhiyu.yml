@@ -1279,7 +1279,7 @@ inject:
     - <script src="/js/custom/schedule.js"></script>
     - <script src="https://open.lightxi.com/unpkg/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script>
     - <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.9.0-rc.1/echarts.min.js"></script> # 
-    - <script src="/custom/js/domain_check.js"></script> # 域名检测脚本
+    # - <script src="/custom/js/domain_check.js"></script> # 域名检测脚本
 
 
 
