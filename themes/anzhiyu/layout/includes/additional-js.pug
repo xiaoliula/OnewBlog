@@ -78,6 +78,9 @@ div
     //- 评论弹幕
     if theme.comment_barrage_config.enable && theme.comments.use == 'Twikoo' && page.comments
       script(async src=url_for(theme.asset.comment_barrage_js))
+    //- 弹幕js
+    if theme.envelope_comment.enable && theme.envelope_comment.easy_Danmaku_js
+      != partial("includes/anzhiyu/danmu.pug", {}, { cache: true })
 
   != partial("includes/third-party/prismjs", {}, { cache: true })
 

@@ -3,10 +3,11 @@ menu:
     隧道: /archives/ || anzhiyu-icon-box-archive
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
+    统计: /charts/ || anzhiyu-icon-calendar-days
 
   友链:
     友人帐: /link/ || anzhiyu-icon-link
-    # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
+    朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
@@ -76,8 +77,8 @@ copy:
 # formal:
 #   name: link || icon
 social:
-  Github: https://github.com/anzhiyu-c || anzhiyu-icon-github || faa-tada
-  Email: https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=2054814799@qq.com || anzhiyu-icon-envelope || faa-tada
+  Github: https://github.com/xiaoliula/ || anzhiyu-icon-github || faa-tada
+  Email: https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=onew.work@outlook.com || anzhiyu-icon-envelope || faa-tada
   QQ: tencent://message/?uin=2054814799&Site=qq&Menu=yes || anzhiyu-icon-qq || faa-tada
   #BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili || faa-tada
 
@@ -1103,10 +1104,10 @@ home_top:
 
 # 朋友圈配置
 friends_vue:
-  enable: false
-  vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.2/friends/index.f9a2b8d2.js
-  apiurl: https://friends.anheyu.com/ # 朋友圈后端地址
-  top_background: https://img.onew.us.kg/file/1741069370097_bg.jpg
+  enable: true
+  # vue_js: https://friends.onew.us.kg/main/fclite.js
+  # apiurl: https://friends.onew.us.kg/ # 朋友圈后端地址
+  # top_background: https://img.onew.us.kg/file/1741069370097_bg.jpg
 
 # 深色模式粒子效果canvas
 universe:
@@ -1266,11 +1267,14 @@ inject:
   bottom:
     # 自定义js
     # - <script src="/js/xxx"></script>
+    - <script src="/js/easy-Danmaku.js"></script> # 弹幕js
     - <script src="/js/countdown.js"></script>
     - <script src="/js/card-welcome.js"></script>
     - <script src="/js/footer-animal.js"></script>
     - <script src="/js/custom/schedule.js"></script>
     - <script src="https://open.lightxi.com/unpkg/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script>
+    - <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.9.0-rc.1/echarts.min.js"></script> # 统计页面
+    - <script src="/js/charts.js"></script> # 词云图
 
 
 
@@ -1359,3 +1363,42 @@ CDN:
     # waterfall:
     # ali_iconfont_css:
     # accesskey_js:
+
+
+#envelope_comment
+#seehttps://akilar.top/posts/e2d3c450/
+envelope_comment:
+  enable: true #控制开关
+  custom_pic:
+    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+  message: #信笺正文，多行文本，写法如下
+    - 有什么想问的？
+    - 有什么想说的？
+    - 有什么想吐槽的？
+    - 哪怕是有什么想吃的，都可以告诉我哦~
+  bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
+  height: #1024px，信封划出的高度
+  easy_Danmaku_js: https://npm.onmicrosoft.cn/naokuo-blog@1.2.12/js/easy-Danmaku.js # 源码：https://github.com/pprory/easyDanmaku
+  danmu_page: '/comments/' # 即留言板地址
+  danmu_el: 'danmu-wrap' # 弹幕挂载节点
+  danmu_line: 5 # 弹幕行数
+  danmu_speed: 20 # 弹幕播放速度
+  danmu_hover: true # 鼠标hover时是否暂停播放弹幕
+  danmu_loop: false # 开启循环播放
+  danmu_runtime: 10 # 循环弹幕播放时长
+  danmu_colourful: true # 开启彩色弹幕
+  danmu_coefficient: 1.38 # 弹幕密度系数
+
+  # Lite朋友圈配置
+friends_lite:
+  enable: true
+  fclite_css_url: https://friends.onew.us.kg//main/fclite.css  # 轻量朋友圈的CSS
+  fclite_js_url: https://friends.onew.us.kg//main/fclite.js    # 轻量朋友圈的js
+  private_api_url: https://friends.onew.us.kg/      # 获取json的API URL  
+  page_turning_number: 20                              # 每页显示的文章数量  
+  error_img: /img/404.jpg  # 404图片 URL  
+  top_background: https://img.onew.us.kg/file/1741069370097_bg.jpg  # 顶部背景图片 URL  
+  top_tips: 欢迎来到我的朋友圈！！！        # 顶部提示文本

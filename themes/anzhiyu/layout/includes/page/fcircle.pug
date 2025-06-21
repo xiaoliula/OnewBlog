@@ -1,25 +1,83 @@
-if theme.friends_vue.enable
+//- if theme.friends_vue.enable
+//-   .fcircle_page
+//-     .author-content.author-content-item.fcirclePage.single(style = `background: url(${theme.friends_vue.top_background}) left 28% / cover no-repeat !important;`)
+//-       .card-content
+//-         .author-content-item-tips 友链
+//-         span.author-content-item-title 最新文章订阅
+//-         .content-bottom
+//-           .tips=theme.friends_vue.top_tips
+//-         .banner-button-group
+//-           a.banner-button(onclick='pjax.loadUrl("/about")')
+//-             i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 22px; margin-right: 0.25rem')
+//-             span.banner-button-text 关于本人
+//-     .title-h2-a
+//-       .title-h2-a-left
+//-         h2(style='padding-top:0;margin:.6rem 0 .6rem') 🎣 钓鱼
+//-         a.random-post-start(href='javascript:fetchRandomPost();')
+//-           i.anzhiyufont.anzhiyu-icon-arrow-rotate-right
+//-       .title-h2-a-right
+//-         a.random-post-all(href='/link/') 全部友链
+//-     #random-post
+//-     #hexo-circle-of-friends-root
+
+//-   if (theme.friends_vue.apiurl)
+//-     script(defer data-pjax src=url_for(theme.asset.random_friends_post_js))
+//-   script(defer data-pjax src=url_for(theme.friends_vue.vue_js))
+
+if theme.friends_lite.enable
+  link(rel="stylesheet", href=theme.friends_lite.fclite_css_url)
+  style.
+    #random-article {
+      display: none!important;
+    }
+    .card:hover,
+    #random-article:hover {
+      border: var(--style-border-hover)!important;
+    }
+    #modal-author-name-link,
+    .modal-article .modal-article-title:hover,
+    .card-title:hover{
+      color: var(--anzhiyu-theme)!important;
+    }
+    .modal-article,
+    #modal-articles-container {
+      border-top-color: var(--anzhiyu-theme)!important;
+      border-bottom-color: var(--anzhiyu-theme)!important;
+    }
+    #load-more-btn:hover {
+      background: var(--anzhiyu-theme)!important;
+    }
   .fcircle_page
-    .author-content.author-content-item.fcirclePage.single(style = `background: url(${theme.friends_vue.top_background}) left 28% / cover no-repeat !important;`)
+    .author-content.author-content-item.fcirclePage.single(style=`background: url(${theme.friends_lite.top_background}) center / cover no-repeat !important;`)
       .card-content
-        .author-content-item-tips 友链
+        .author-content-item-tips 朋友圈
         span.author-content-item-title 最新文章订阅
         .content-bottom
-          .tips=theme.friends_vue.top_tips
+          .tips= theme.friends_lite.top_tips
         .banner-button-group
           a.banner-button(onclick='pjax.loadUrl("/about")')
             i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 22px; margin-right: 0.25rem')
             span.banner-button-text 关于本人
     .title-h2-a
       .title-h2-a-left
-        h2(style='padding-top:0;margin:.6rem 0 .6rem') 🎣 钓鱼
+        h2(style='padding-top:0;margin:rem 0 rem') 🎣 钓鱼
         a.random-post-start(href='javascript:fetchRandomPost();')
           i.anzhiyufont.anzhiyu-icon-arrow-rotate-right
       .title-h2-a-right
         a.random-post-all(href='/link/') 全部友链
     #random-post
-    #hexo-circle-of-friends-root
+    .title-h2-a
+      .title-h2-a-left
+        h2 🐟 鱼塘
+    #friend-circle-lite-root
 
-  if (theme.friends_vue.apiurl)
-    script(defer data-pjax src=url_for(theme.asset.random_friends_post_js))
-  script(defer data-pjax src=url_for(theme.friends_vue.vue_js))
+  script.
+    if (typeof UserConfig === 'undefined') {
+        var UserConfig = {
+        private_api_url: '#{theme.friends_lite.private_api_url}',
+        page_turning_number: #{theme.friends_lite.page_turning_number},
+        error_img: '#{theme.friends_lite.error_img}'
+      }
+    }
+  script(src=theme.friends_lite.fclite_js_url)
+  script(defer data-pjax src=url_for(theme.asset.random_friends_post_js))

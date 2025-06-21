@@ -1,0 +1,112 @@
+#naokuo_envelope
+  - let maincontent_background = page.top_background
+  .author-content.author-content-item.album.single(style=`${maincontent_background ? `background: url(${maincontent_background}) top / cover no-repeat;` : ""}`)
+    .card-content
+      .author-content-item-tips 留言板
+      span.author-content-item-title 自动书记人偶竭诚为您服务！🤪
+      .content-bottom
+        .tips 有什么想说的，都可以告诉我哦~
+      .banner-button-group
+        a.banner-button(onclick=`pjax.loadUrl('/about/')`)
+          i.anzhiyufont.anzhiyu-icon-circle-arrow-up-right-1(style='font-size: 1.5rem')
+          span.banner-button-text 关于本人
+  #maincontent
+    #form-wrap
+      img#beforeimg.no-lightbox(src=url_for(theme.envelope_comment.custom_pic.beforeimg))
+      #envelope
+        form
+          .formmain(style="pointer-events: none;")
+            img.headerimg.no-lightbox(src=url_for(theme.envelope_comment.custom_pic.cover) style="width: 100%;overflow: hidden;pointer-events: none;")
+            .comments-main
+              h3.title3(style="text-decoration: none;color: var(--anzhiyu-theme);text-align: center;")=`来自` + config.author + `的留言:`
+              .comments(style="text-align: center;border-bottom: #ddd 1px solid;border-left: #ddd 1px solid;padding-bottom: 20px;background-color: #eee;margin: 15px 0px;padding-left: 20px;padding-right: 20px;border-top: #ddd 1px solid;border-right: #ddd 1px solid;padding-top: 20px;")
+                each i in theme.envelope_comment.message
+                  div=`${i}`
+              .bottomcontent(style="text-align: center;margin-top: 40px;")
+                img.bottomimg.no-lightbox(src=url_for(theme.envelope_comment.custom_pic.line) style="width: 100%;margin: 5px auto 5px auto;display: block;pointer-events: none;")
+              p.bottomhr(style="font-size: 12px;text-align: center;color: #999;")=`${theme.envelope_comment.bottom}`
+      img#afterimg.no-lightbox(src=url_for(theme.envelope_comment.custom_pic.afterimg))
+      
+if theme.envelope_comment.enable && theme.envelope_comment.easy_Danmaku_js
+  #danmu-Btn
+  #danmu-wrap
+  style.
+    #article-container a:not(.headerlink, .fancybox, .default-style a) {
+      font-weight: 700;
+      color: var(--font-color);
+      padding: 0 3px;
+      border-bottom: 2px var(--anzhiyu-main) solid;
+    }
+    #article-container a:not(.headerlink, .fancybox, .default-style a):hover {
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      background-color: var(--anzhiyu-main);
+    }
+    #danmu-wrap {
+      width: 100%;
+      height: calc(100% - 60px);
+      position: fixed;
+      left: 0;
+      top: 60px;
+      z-index: 3;
+      pointer-events: none;
+    }
+    .hide-danmu {
+      opacity: 0;
+    }
+    .hide-danmu * {
+      pointer-events: none !important;
+    }
+    div#danmu-Btn {
+      display: flex;
+      justify-content: center;
+      margin: 64px 0 0;
+    }
+    div#danmu-Btn button.hide-Btn {
+      background: rgba(52,106,133,.478);
+      color: white;
+      padding: 8px 20px;
+      margin: 0 20px;
+      border-radius: 100px;
+    }
+    div#danmu-Btn button.hide-Btn:hover {
+      background: var(--anzhiyu-main);
+    }
+    .default-style {
+      pointer-events: all;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 100px;
+      overflow: hidden;
+      color: #eee;
+    }
+    .default-style a {
+      background-color: var(--naokuo-danmuBg);
+      transition: .3s;
+      color: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 16px 6px 6px;
+      text-decoration: none !important;
+    }
+    .default-style a:hover {
+      background-color: var(--anzhiyu-main);
+    }
+    .default-style img {
+      pointer-events: none;
+      height: 30px;
+      width: 30px;
+      margin: 0 5px 0 0 !important;
+      border-radius: 50% !important;
+    }
+    .default-style p {
+      line-height: 1;
+      pointer-events: none;
+      margin: 0 !important;
+      max-width: 300px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
