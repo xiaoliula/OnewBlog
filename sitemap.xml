@@ -20,24 +20,6 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/tags/</loc>
-    
-    <lastmod>2025-06-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/thousand/</loc>
-    
-    <lastmod>2025-06-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onew.us.kg/manifest.json</loc>
     
     <lastmod>2025-06-21</lastmod>
@@ -83,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/friend.json</loc>
+    <loc>https://blog.onew.us.kg/tags/</loc>
     
     <lastmod>2025-06-21</lastmod>
     
@@ -92,7 +74,16 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/air-conditioner/</loc>
+    <loc>https://blog.onew.us.kg/thousand/</loc>
+    
+    <lastmod>2025-06-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/friend.json</loc>
     
     <lastmod>2025-06-21</lastmod>
     
@@ -137,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/cookies/</loc>
+    <loc>https://blog.onew.us.kg/copyright/</loc>
     
     <lastmod>2025-06-21</lastmod>
     
@@ -146,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/copyright/</loc>
+    <loc>https://blog.onew.us.kg/cookies/</loc>
     
     <lastmod>2025-06-21</lastmod>
     
@@ -192,6 +183,15 @@
   
   <url>
     <loc>https://blog.onew.us.kg/about/</loc>
+    
+    <lastmod>2025-06-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/air-conditioner/</loc>
     
     <lastmod>2025-06-21</lastmod>
     
