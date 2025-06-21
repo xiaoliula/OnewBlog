@@ -165,7 +165,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: "background: url() top / cover no-repeat" # "background: url() top / cover no-repeat"
+index_img: false # "background: url() top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: false
@@ -1268,7 +1268,6 @@ inject:
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/custom/schedule.css">
     - <link rel="stylesheet" href="/css/font.css" media="defer" onload="this.media='all'">
-    - - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"> # 首页一图流
 
   bottom:
     # 自定义js
@@ -1279,8 +1278,8 @@ inject:
     - <script src="/js/footer-animal.js"></script>
     - <script src="/js/custom/schedule.js"></script>
     - <script src="https://open.lightxi.com/unpkg/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script>
-    - <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.9.0-rc.1/echarts.min.js"></script> # 统计页面
-    - <script async data-pjax src="/js/imgloaded.js?1"></script> # 首页图片渐进式加载
+    - <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.9.0-rc.1/echarts.min.js"></script> # 
+    - <script src="/custom/js/domain_check.js"></script> # 域名检测脚本
 
 
 
