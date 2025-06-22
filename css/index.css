@@ -2972,6 +2972,11 @@ a:hover {
 #aside-content .author-info__description {
   font-family: CuteFont;
 }
+#site-subtitle,
+#subtitle {
+  white-space: normal;
+  word-break: break-all;
+}
 .is-center {
   text-align: center;
 }
@@ -11750,9 +11755,20 @@ h1.page-title + .tag-cloud-list {
   transition: 0.3s;
 }
 #page-header.full_page {
-  height: 100vh;
+  height: 110vh;
   background-attachment: fixed;
   border-radius: 0;
+}
+@media screen and (max-width: 768px) {
+  #page-header #center-console + label i {
+    background: var(--font-color);
+  }
+}
+#page-header #site-info {
+  position: absolute;
+  top: 43%;
+  padding: 0 10px;
+  width: 100%;
 }
 #page-header #site-title,
 #page-header #site-subtitle,
@@ -11774,6 +11790,8 @@ h1.page-title + .tag-cloud-list {
 #page-header #site-subtitle {
   color: var(--light-grey);
   font-size: 1.15em;
+  white-space: normal;
+  word-break: break-all;
 }
 @media screen and (min-width: 768px) {
   #page-header #site-subtitle {
@@ -14515,6 +14533,32 @@ h1.page-title + .tag-cloud-list {
     transition: 0.3s;
     -webkit-box-shadow: var(--anzhiyu-shadow-main);
     box-shadow: var(--anzhiyu-shadow-main);
+  }
+}
+@media screen and (max-width: 768px) {
+  #nav {
+    background: var(--anzhiyu-card-bg) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #page-header #nav #site-name,
+  #page-header #nav #toggle-menu,
+  #page-header:not(.not-top-img) #nav .back-home-button {
+    color: var(--font-color) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #blog_name a,
+  .mask-name-container a,
+  #menus a,
+  #nav-right .nav-button a,
+  #nav-right #toggle-menu a {
+    color: var(--font-color) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  div#bbTimeList {
+    margin: 20px 15px !important;
   }
 }
 #pagination .toPageGroup {
@@ -20844,7 +20888,7 @@ body .snackbar-container::after {
   height: 32px;
 }
 #twikoo .tk-comments .tk-input .el-textarea__inner {
-  min-height: 130px !important;
+  min-height: 160px !important;
   border-radius: 15px;
   display: block;
   resize: vertical;
@@ -20854,7 +20898,7 @@ body .snackbar-container::after {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  font-size: inherit;
+  font-size: var(--global-font-size);
   color: var(--anzhiyu-fontcolor);
   background-color: var(--anzhiyu-secondbg);
   border: var(--style-border-always);
@@ -28906,18 +28950,24 @@ div#runtime {
 
 .author-content.author-content-item {
   height: 19rem;
-  background-color: var(--anzhiyu-main);
+  position: relative; /* 新增，确保子元素绝对定位有效 */
+  /* background-color: var(--anzhiyu-main); */
   background-position: left 28%;
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--anzhiyu-white);
   overflow: hidden;
   margin-top: 0;
-  background-image: linear-gradient(-45deg, var(--anzhiyu-main), #0f4667, #2a6973 150%, #67044d);
+  /* background-image: linear-gradient(-45deg, var(--anzhiyu-main), #0f4667, #2a6973 150%, #67044d); */
+  
   background-size: 400%;
   animation: gradient 15s ease infinite;
 }
-
+/* 可选，确保内容在视频上方 */
+.author-content.author-content-item > *:not(video) {
+  position: relative;
+  z-index: 1;
+}
 #skills-tags-group-all {
   display: flex;
   transform: rotate(0);
