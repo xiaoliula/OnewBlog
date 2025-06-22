@@ -1,7 +1,19 @@
 #album
   - let album_background = page.top_background
-  .author-content.author-content-item.album.single(style=`${album_background ? `background: url(${album_background}) top / cover no-repeat;` : ""}`)
-    .card-content
+  - let is_video = album_background && album_background.endsWith('.mp4')
+  .author-content.author-content-item.album.single(
+    style=`position: relative; overflow: hidden;${!is_video && album_background ? `background: url(${album_background}) top / cover no-repeat;` : ""}`
+  )
+    if is_video
+      video(
+        autoplay
+        loop
+        muted
+        playsinline
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;"
+      )
+        source(src=url_for(album_background) type="video/mp4")
+    .card-content(style="position: relative; z-index: 1;")
       .author-content-item-tips 相册集
       span.author-content-item-title 这里是我的相册集哦😯
       .content-bottom

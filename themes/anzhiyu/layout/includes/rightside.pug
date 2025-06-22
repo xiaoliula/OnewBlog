@@ -46,7 +46,7 @@ mixin rightsideItem(array)
     if enable
       if hide
         button#rightside-config(type="button" title=_p("rightside.setting"))
-         i.anzhiyufont.anzhiyu-icon-gear
+          i.anzhiyufont.anzhiyu-icon-gear
     else
       if is_post()
         if (readmode || translate.enable || (darkmode.enable && darkmode.button))
@@ -61,3 +61,5 @@ mixin rightsideItem(array)
 
     button#go-up(type="button" title=_p("rightside.back_to_top"))
       i.anzhiyufont.anzhiyu-icon-arrow-up
+    button#go-down(type="button" title="直达底部" onclick="anzhiyu.scrollToDest(document.body.scrollHeight, 500)")
+      i.anzhiyufont.anzhiyu-icon-arrow-down

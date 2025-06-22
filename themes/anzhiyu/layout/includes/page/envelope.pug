@@ -1,6 +1,14 @@
 #naokuo_envelope
   - let maincontent_background = page.top_background
-  .author-content.author-content-item.album.single(style=`${maincontent_background ? `background: url(${maincontent_background}) top / cover no-repeat;` : ""}`)
+  .author-content.author-content-item.album.single(style="position: relative; overflow: hidden;")
+    video(
+      autoplay
+      loop
+      muted
+      playsinline
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;"
+    )
+      source(src='https://img.onew.us.kg/file/1750596897197_The Angry Birds.mp4' type='video/mp4')
     .card-content
       .author-content-item-tips 留言板
       span.author-content-item-title 自动书记人偶竭诚为您服务！🤪

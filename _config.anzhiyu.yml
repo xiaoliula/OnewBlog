@@ -3,7 +3,9 @@ menu:
     隧道: /archives/ || anzhiyu-icon-box-archive
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
+    评论: /messages/ || anzhiyu-icon-comments
     统计: /charts/ || anzhiyu-icon-calendar-days
+    
 
   友链:
     友人帐: /link/ || anzhiyu-icon-link
@@ -165,7 +167,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: false # "background: url() top / cover no-repeat"
+index_img: "background: url() top / cover no-repeat" # "background: url() top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: false
@@ -553,7 +555,7 @@ footer:
       - link: https://beian.miit.gov.cn/
         text: 渝ICP备2024042160号-1
     subTitle:
-      enable: false
+      enable: true
       # Typewriter Effect (打字效果)
       effect: true
       # Effect Speed Options (打字效果速度参数)
@@ -568,10 +570,11 @@ footer:
       # source: 2  调用一句网（简体） http://yijuzhan.com/
       # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
       # subtitle 会先显示 source , 再显示 sub 的内容
-      source: 1
+      source: false
       # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
       sub:
         # - 生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期.
+        - 学习是进步的阶梯.
 
 # Analysis
 # --------------------------------------
@@ -779,7 +782,7 @@ hr_icon:
 
 # the subtitle on homepage (主页subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Effect Speed Options (打字效果速度参数)
@@ -798,6 +801,7 @@ subtitle:
   # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
   sub:
     # - 生活明朗&#44;万物可爱&#44;人间值得&#44;未来可期.
+    
 
 # Loading Animation (加载动画)
 preloader:
@@ -809,7 +813,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://img.onew.us.kg/file/1741045424366_logo.jpg # 自定加载动画义头像
+  avatar: https://img.onew.us.kg/file/1750598176978_cute_anime.gif # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1265,9 +1269,11 @@ dynamicEffect:
 inject:
   head:
     # 自定义css
-    # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/custom/schedule.css">
     - <link rel="stylesheet" href="/css/font.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/custom/css/bilibili.css"> # bilibili视频样式
+    - <link rel="stylesheet" href="/css/imgloaded.css?1">   # 背景css
+    - <link rel="stylesheet" href="/css/home.css"> # 首页文章卡片擦亮效果
 
   bottom:
     # 自定义js
@@ -1280,6 +1286,12 @@ inject:
     - <script src="https://open.lightxi.com/unpkg/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script>
     - <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.9.0-rc.1/echarts.min.js"></script> # 
     # - <script src="/custom/js/domain_check.js"></script> # 域名检测脚本
+    # FPS显示
+    - <span id="fps"></span> 
+    - <link rel="stylesheet" href="/custom/fps/fps.css" media="defer" onload="this.media='all'">
+    - <script src="/custom/fps/fps.js"></script>
+    - <script async data-pjax src="/js/imgloaded.js?1"></script> # 首页图片渐进式加载
+    - <script src="/js/comments.js"></script> # 侧边栏评论js
 
 
 
@@ -1380,10 +1392,10 @@ envelope_comment:
     beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
     afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
   message: #信笺正文，多行文本，写法如下
-    - 有什么想问的？
-    - 有什么想说的？
-    - 有什么想吐槽的？
-    - 哪怕是有什么想吃的，都可以告诉我哦~
+    - 小脑袋想不通嘛？ (ฅ´ω`ฅ)
+    - 心里话想讲嘛？ (=｀ω´=)
+    - 小委屈憋不住啦？ (╯°□°）╯︵ ┻━┻
+    - 哪怕是有什么想吃的，都可以告诉我哦～
   bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
   height: #1024px，信封划出的高度
   easy_Danmaku_js: https://npm.onmicrosoft.cn/naokuo-blog@1.2.12/js/easy-Danmaku.js # 源码：https://github.com/pprory/easyDanmaku
@@ -1404,8 +1416,8 @@ friends_lite:
   fclite_js_url: https://friends.onew.us.kg//main/fclite.js    # 轻量朋友圈的js
   private_api_url: https://friends.onew.us.kg/      # 获取json的API URL  
   page_turning_number: 20                              # 每页显示的文章数量  
-  error_img: /img/404.jpg  # 404图片 URL  
-  top_background: https://img.onew.us.kg/file/1741069370097_bg.jpg  # 顶部背景图片 URL  
+  error_img: /img/wml icon.ico  # 404图片 URL  
+  top_background: https://img.onew.us.kg/file/1750596897197_The Angry Birds.mp4  # 顶部背景图片 URL  
   top_tips: 欢迎来到我的朋友圈！！！        # 顶部提示文本
 
   # hexo-safego安全跳转插件

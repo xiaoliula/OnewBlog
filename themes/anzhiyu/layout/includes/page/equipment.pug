@@ -1,8 +1,21 @@
 #equipment
   if site.data.equipment
     each i in site.data.equipment
-      .author-content.author-content-item.fcirclePage.single(style = `background: url(${i.top_background}) left 37% / cover no-repeat !important;`)
-        .card-content
+      .author-content.author-content-item.fcirclePage.single(
+        style = i.top_background && !i.top_background.endsWith('.mp4')
+          ? `background: url(${i.top_background}) left 37% / cover no-repeat !important; position: relative; overflow: hidden;`
+          : "position: relative; overflow: hidden;"
+      )
+        if i.top_background && i.top_background.endsWith('.mp4')
+          video(
+            autoplay
+            loop
+            muted
+            playsinline
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;"
+          )
+            source(src=i.top_background type="video/mp4")
+        .card-content(style="position: relative; z-index: 1;")
           .author-content-item-tips=i.class_name
           span.author-content-item-title=i.description
           .content-bottom

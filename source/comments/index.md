@@ -5,5 +5,5 @@ comments: true
 top_img: false
 type: 'envelope'
 aside: false
-top_background: 'https://s11.ax1x.com/2023/12/20/pioqoNT.jpg'
+top_background: 'https://img.onew.us.kg/file/渐变.png'
 ---
