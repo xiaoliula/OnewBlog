@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.onew.us.kg/wallpaper/</loc>
-    
-    <lastmod>2025-06-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onew.us.kg/wordScenery/</loc>
     
     <lastmod>2025-06-23</lastmod>
@@ -20,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/thousand/</loc>
+    <loc>https://blog.onew.us.kg/wallpaper/</loc>
     
     <lastmod>2025-06-23</lastmod>
     
@@ -92,6 +83,15 @@
   </url>
   
   <url>
+    <loc>https://blog.onew.us.kg/thousand/</loc>
+    
+    <lastmod>2025-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onew.us.kg/friend.json</loc>
     
     <lastmod>2025-06-23</lastmod>
@@ -137,15 +137,6 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/comments/</loc>
-    
-    <lastmod>2025-06-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onew.us.kg/cookies/</loc>
     
     <lastmod>2025-06-23</lastmod>
@@ -182,15 +173,6 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/album/</loc>
-    
-    <lastmod>2025-06-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onew.us.kg/categories/</loc>
     
     <lastmod>2025-06-23</lastmod>
@@ -200,7 +182,25 @@
   </url>
   
   <url>
+    <loc>https://blog.onew.us.kg/album/</loc>
+    
+    <lastmod>2025-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onew.us.kg/charts/</loc>
+    
+    <lastmod>2025-06-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/comments/</loc>
     
     <lastmod>2025-06-23</lastmod>
     
@@ -587,6 +587,13 @@
 
   
   <url>
+    <loc>https://blog.onew.us.kg/tags/Java/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onew.us.kg/tags/Docker/</loc>
     <lastmod>2025-06-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -595,13 +602,6 @@
   
   <url>
     <loc>https://blog.onew.us.kg/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2025-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/tags/Java/</loc>
     <lastmod>2025-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -664,6 +664,20 @@
   </url>
   
   <url>
+    <loc>https://blog.onew.us.kg/tags/%E9%82%A3%E4%BA%9B%E5%B0%8F%E4%BA%8B%E5%84%BF/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/tags/PHP/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onew.us.kg/tags/Tag-Plugins/</loc>
     <lastmod>2025-06-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -672,13 +686,6 @@
   
   <url>
     <loc>https://blog.onew.us.kg/tags/Hexo/</loc>
-    <lastmod>2025-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/tags/%E9%82%A3%E4%BA%9B%E5%B0%8F%E4%BA%8B%E5%84%BF/</loc>
     <lastmod>2025-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -714,13 +721,6 @@
   
   <url>
     <loc>https://blog.onew.us.kg/tags/%E5%9F%9F%E5%90%8D/</loc>
-    <lastmod>2025-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/tags/PHP/</loc>
     <lastmod>2025-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
