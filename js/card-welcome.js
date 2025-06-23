@@ -34,25 +34,26 @@ const showWelcome = ({
 	data,
 	ip
 }) => {
-	if (!data) return showErrorMessage();
+    if (!data) return showErrorMessage();
 
-	const {
-		lng,
-		lat,
-		country,
-		prov,
-		city
-	} = data;
-	const welcomeInfo = getWelcomeInfoElement();
-	if (!welcomeInfo) return;
+    const {
+        lng,
+        lat,
+        country,
+        prov,
+        city,
+        district // 新增区县
+    } = data;
+    const welcomeInfo = getWelcomeInfoElement();
+    if (!welcomeInfo) return;
 
-	const dist = calculateDistance(lng, lat);
-	const ipDisplay = formatIpDisplay(ip);
-	const pos = formatLocation(country, prov, city);
+    const dist = calculateDistance(lng, lat);
+    const ipDisplay = formatIpDisplay(ip);
+    const pos = formatLocation(country, prov, city, district); // 传递 district
 
-	welcomeInfo.style.display = 'block';
-	welcomeInfo.style.height = 'auto';
-	welcomeInfo.innerHTML = generateWelcomeMessage(pos, dist, ipDisplay, country, prov, city);
+    welcomeInfo.style.display = 'block';
+    welcomeInfo.style.height = 'auto';
+    welcomeInfo.innerHTML = generateWelcomeMessage(pos, dist, ipDisplay, country, prov, city, district); // 传递 district
 };
 
 const calculateDistance = (lng, lat) => {
@@ -67,16 +68,23 @@ const calculateDistance = (lng, lat) => {
 	return Math.round(R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
 };
 const formatIpDisplay = (ip) => ip.includes(":") ? "<br>好复杂，咱看不懂~(ipv6)" : ip;
-const formatLocation = (country, prov, city) => {
-	return country ? (country === "中国" ? `${prov} ${city}` : country) : '神秘地区';
+const formatLocation = (country, prov, city, district) => {
+    if (!country) return '神秘地区';
+    if (country === "中国") {
+        let result = prov ? `${prov}` : '';
+        if (city) result += ` ${city}`;
+        if (district) result += ` ${district}`; // 拼接区县
+        return result;
+    }
+    return country;
 };
 
-const generateWelcomeMessage = (pos, dist, ipDisplay, country, prov, city) => `
+const generateWelcomeMessage = (pos, dist, ipDisplay, country, prov, city, district) => `
     欢迎来自 <b>${pos}</b> 的小友💖<br>
     你当前距博主约 <b>${dist}</b> 公里！<br>
     你的IP地址：<b class="ip-address">${ipDisplay}</b><br>
     ${getTimeGreeting()}<br>
-    Tip：<b>${getGreeting(country, prov, city)}🍂</b>
+    Tip：<b>${getGreeting(country, prov, city, district)}🍂</b>
 `;
 
 const addStyles = () => {
