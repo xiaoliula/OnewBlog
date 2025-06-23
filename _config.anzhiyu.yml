@@ -1274,6 +1274,7 @@ inject:
     - <link rel="stylesheet" href="/custom/css/bilibili.css"> # bilibili视频样式
     - <link rel="stylesheet" href="/css/imgloaded.css?1">   # 背景css
     - <link rel="stylesheet" href="/css/home.css"> # 首页文章卡片擦亮效果
+    - <link rel="stylesheet" href="/css/cursor.css"> # 鼠标指针样式
 
   bottom:
     # 自定义js
