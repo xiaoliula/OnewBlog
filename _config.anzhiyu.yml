@@ -1292,6 +1292,11 @@ inject:
     - <script src="/custom/fps/fps.js"></script>
     - <script async data-pjax src="/js/imgloaded.js?1"></script> # 首页图片渐进式加载
     - <script src="/js/comments.js"></script> # 侧边栏评论js
+    # 公祭日和节日弹框
+    - <script defer type="text/javascript" src="/custom/dayalert/sweetalert2.all.js"></script> # 节日弹窗依赖
+    - <script defer src="/custom/dayalert/lunar.js"></script> # 农历计算
+    - <script defer src="/custom/dayalert/day.js"></script> # 节日弹窗
+
 
 
 
@@ -1420,40 +1425,3 @@ friends_lite:
   top_background: https://img.onew.us.kg/file/1750596897197_The Angry Birds.mp4  # 顶部背景图片 URL  
   top_tips: 欢迎来到我的朋友圈！！！        # 顶部提示文本
 
-  # hexo-safego安全跳转插件
-# see https://blog.liushen.fun/posts/1dfd1f41/
-hexo_safego:
-  # 基本功能设置
-  general:
-    enable: true                # 启用插件
-    enable_base64_encode: true  # 使用 Base64 编码
-    enable_target_blank: true   # 打开新窗口
-  # 安全设置
-  security:
-    url_param_name: 'u'         # URL 参数名
-    html_file_name: 'go.html'   # 重定向页面的文件名
-    ignore_attrs:               # 忽略处理的 HTML 属性
-      - 'data-fancybox'
-  # 容器与页面设置
-  scope:
-    apply_containers:           # 应用的容器选择器
-      - '#article-container'
-    apply_pages:                # 应用的页面路径
-      - "/posts/"
-      - "/devices/"
-    #exclude_pages:              # 排除的页面路径
-  # 域名白名单
-  whitelist:
-    domain_whitelist:           # 允许的白名单域名
-      - "blog.onew.us.kg"
-      - "onew.us.kg"
-  # 页面外观设置
-  appearance:
-    avatar: /img/logo.jpg       # 头像路径
-    title: "Onew's Blog"               # 页面标题
-    subtitle: "安全中心"         # 页面副标题
-    darkmode: false             # 是否启用深色模式
-    countdowntime: -1           # 倒计时秒数
-  # 调试设置
-  debug:
-    enable: false               # 启用调试模式

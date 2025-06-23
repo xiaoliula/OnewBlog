@@ -182,23 +182,24 @@ hexo_safego:
   # 容器与页面设置
   scope:
     apply_containers:           # 应用的容器选择器
-      - '#article-container'
+      - ''
     apply_pages:                # 应用的页面路径
-      - "/posts/"
-      - "/devices/"
-    #exclude_pages:              # 排除的页面路径
+      - "/"
+    exclude_pages:              # 排除的页面路径
   # 域名白名单
   whitelist:
     domain_whitelist:           # 允许的白名单域名
-      - "blog.onew.us.kg"
       - "onew.us.kg"
+      - "onew.pp.ua"
+      - "onewa.fun"
   # 页面外观设置
   appearance:
-    avatar: /img/logo.jpg       # 头像路径
-    title: "Onew's Blog"               # 页面标题
-    subtitle: "安全中心"         # 页面副标题
-    darkmode: false             # 是否启用深色模式
+    avatar: https://img.onew.us.kg/file/1741045424366_logo.jpg    # 头像路径
+    title: "Onew's Blog"            # 页面标题
+    subtitle: "安全中心提醒您"         # 页面副标题
+    darkmode: auto              # 是否启用深色模式
     countdowntime: -1           # 倒计时秒数
   # 调试设置
   debug:
     enable: false               # 启用调试模式
+

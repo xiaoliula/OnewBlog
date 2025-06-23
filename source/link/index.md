@@ -18,7 +18,7 @@ top_img: false
   avatar: https://img.onew.us.kg/file/1741045424366_logo.jpg
   sitecover: https://img.onew.us.kg/file/1741069370097_bg.jpg
   descr: 学习是进步的阶梯
-  siteshot: https://img.onew.us.kg/file/Snipaste_2025-03-10_17-08-40.png
+  siteshot: https://img.onew.us.kg/file/1750647907921_Snipaste_2025-06-23_11-04-42.png
   sitemap: https://blog.onew.us.kg/sitemap.xml
 ```
 
@@ -46,7 +46,7 @@ top_img: false
 | 名称       | 数值                                                                      |
 | :--------- | :------------------------------------------------------------------------ |
 | 站点名称   | Onew's Blog                                                               |
-| 站点截图   | https://img.onew.us.kg/file/Snipaste_2025-03-10_17-08-40.png |
+| 站点截图   | https://img.onew.us.kg/file/1750647907921_Snipaste_2025-06-23_11-04-42.png |
 | 站点封面   | https://img.onew.us.kg/file/1741069370097_bg.jpg |
 | 站点链接   | https://blog.onew.us.kg/                                                        |
 | 站长头像   | https://img.onew.us.kg/file/1741045424366_logo.jpg       |
@@ -65,7 +65,7 @@ top_img: false
       avatar: https://img.onew.us.kg/file/1741045424366_logo.jpg,
       sitecover: https://img.onew.us.kg/file/1741069370097_bg.jpg,
       descr: 学习是进步的阶梯,
-      siteshot: https://img.onew.us.kg/file/Snipaste_2025-03-10_17-08-40.png,
+      siteshot: https://img.onew.us.kg/file/1750647907921_Snipaste_2025-06-23_11-04-42.png,
       sitemap: https://blog.onew.us.kg/sitemap.xml,
   }
 ```
@@ -178,7 +178,7 @@ a(href='https://blog.onew.us.kg/' rel="external nofollow") Onew-学习是进步�
 2. 网站地址: `https://blog.onew.us.kg/`
 3. 描述: `学习是进步的阶梯`
 4. 头像: `https://img.onew.us.kg/file/1741045424366_logo.jpg`
-5. 站点截图: `https://img.onew.us.kg/file/Snipaste_2025-03-10_17-08-40.png`
+5. 站点截图: `https://img.onew.us.kg/file/1750647907921_Snipaste_2025-06-23_11-04-42.png`
 6. 站点封面: `https://img.onew.us.kg/file/1741069370097_bg.jpg`
 7. 网站地图地址: `https://blog.onew.us.kg/sitemap.xml`
 参照以下格式留言 📋 即可。
@@ -200,7 +200,7 @@ a(href='https://blog.onew.us.kg/' rel="external nofollow") Onew-学习是进步�
 网站地址：https://blog.onew.us.kg/
 头像图片url：https://img.onew.us.kg/file/1741045424366_logo.jpg
 描述：学习是进步的阶梯
-站点截图(可选)：https://img.onew.us.kg/file/Snipaste_2025-03-10_17-08-40.png
+站点截图(可选)：https://img.onew.us.kg/file/1750647907921_Snipaste_2025-06-23_11-04-42.png
 站点封面(可选)：https://img.onew.us.kg/file/1741069370097_bg.jpg
 网站地图地址(可选)：https://blog.onew.us.kg/sitemap.xml
 ```
@@ -227,7 +227,7 @@ https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/anheyu.com/https:/
 2. 网站地址: `https://blog.onew.us.kg/`
 3. 描述: `学习是进步的阶梯`
 4. 头像: `https://img.onew.us.kg/file/1741045424366_logo.jpg`
-5. 站点截图: `https://img.onew.us.kg/file/Snipaste_2025-03-10_17-08-40.png`
+5. 站点截图: `https://img.onew.us.kg/file/1750647907921_Snipaste_2025-06-23_11-04-42.png`
 
 <p  style="padding: 0px 0px 0px 0.8rem;">
 请<strong>勾选</strong>你符合的条件：
