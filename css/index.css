@@ -11385,7 +11385,6 @@ h1.page-title + .tag-cloud-list {
   background: -ms-linear-gradient(270deg, var(--anzhiyu-card-bg-none) 0%, var(--anzhiyu-card-bg) 25%);
   background: linear-gradient(180deg, var(--anzhiyu-card-bg-none) 0%, var(--anzhiyu-card-bg) 25%);
   background-attachment: scroll;
-  background-position: bottom;
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
