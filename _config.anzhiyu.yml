@@ -1296,7 +1296,7 @@ inject:
     # 公祭日和节日弹框
     - <script defer type="text/javascript" src="/custom/dayalert/sweetalert2.all.js"></script> # 节日弹窗依赖
     - <script defer src="/custom/dayalert/lunar.js"></script> # 农历计算
-    - <script defer src="/custom/dayalert/day.js"></script> # 节日弹窗
+    # - <script defer src="/custom/dayalert/day.js"></script> # 节日弹窗
 
 
 
