@@ -23,6 +23,7 @@ menu:
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
     我的装备: /equipment/ || anzhiyu-icon-dice-d20
+    站点统计: https://umami.onew.us.kg/websites/21844857-115d-4fca-8475-8acfccf94aa9 || anzhiyu-icon-chart-line
 
 
 # # Security
@@ -1297,6 +1298,7 @@ inject:
     - <script defer type="text/javascript" src="/custom/dayalert/sweetalert2.all.js"></script> # 节日弹窗依赖
     - <script defer src="/custom/dayalert/lunar.js"></script> # 农历计算
     # - <script defer src="/custom/dayalert/day.js"></script> # 节日弹窗
+    - <script defer src="https://umami.onew.us.kg/umami" data-website-id="21844857-115d-4fca-8475-8acfccf94aa9"></script> # Umami Analytics
 
 
 
