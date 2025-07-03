@@ -4,7 +4,7 @@ menu:
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
     评论: /messages/ || anzhiyu-icon-comments
-    统计: /charts/ || anzhiyu-icon-calendar-days
+    文章统计: /charts/ || anzhiyu-icon-calendar-days
     
 
   友链:
@@ -23,7 +23,7 @@ menu:
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
     我的装备: /equipment/ || anzhiyu-icon-dice-d20
-    站点统计: https://umami.onew.us.kg/websites/21844857-115d-4fca-8475-8acfccf94aa9 || anzhiyu-icon-chart-line
+    站点统计: https://umami.onew.us.kg/share/hbFaYrKyVP4d31Yf/blog.onew.us.kg || anzhiyu-icon-chart-line
 
 
 # # Security
