@@ -38,15 +38,6 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/tags/</loc>
-    
-    <lastmod>2025-07-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onew.us.kg/thousand/</loc>
     
     <lastmod>2025-07-15</lastmod>
@@ -110,6 +101,15 @@
   </url>
   
   <url>
+    <loc>https://blog.onew.us.kg/tags/</loc>
+    
+    <lastmod>2025-07-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onew.us.kg/dailyPhoto/</loc>
     
     <lastmod>2025-07-15</lastmod>
@@ -138,24 +138,6 @@
   
   <url>
     <loc>https://blog.onew.us.kg/fcircle/</loc>
-    
-    <lastmod>2025-07-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/album/</loc>
-    
-    <lastmod>2025-07-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/categories/</loc>
     
     <lastmod>2025-07-15</lastmod>
     
@@ -210,6 +192,24 @@
   
   <url>
     <loc>https://blog.onew.us.kg/air-conditioner/</loc>
+    
+    <lastmod>2025-07-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/categories/</loc>
+    
+    <lastmod>2025-07-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/album/</loc>
     
     <lastmod>2025-07-15</lastmod>
     
@@ -624,6 +624,13 @@
   </url>
   
   <url>
+    <loc>https://blog.onew.us.kg/tags/Java/</loc>
+    <lastmod>2025-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onew.us.kg/tags/Docker/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -632,13 +639,6 @@
   
   <url>
     <loc>https://blog.onew.us.kg/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2025-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/tags/Java/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
