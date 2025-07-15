@@ -29,7 +29,7 @@ aside: true
 # swiper_index: 10
 # top_group_index: 10
 background: "#fff"
-ai: 
+ai: 这篇教程详细介绍了如何为Cloudflare Workers和Pages项目设置优选域名来提升访问速度。文章从准备工作开始，分别讲解了Workers项目和Pages项目的具体配置步骤，包括域名解析设置、路由配置等关键操作，并特别强调了注意事项。通过华为云DNS服务的示例演示，帮助用户轻松实现项目加速优化。
 ---
 
 # 使用优选域名加速 Workers & Pages 项目
