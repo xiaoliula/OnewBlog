@@ -80,7 +80,7 @@ ai: 这篇教程详细介绍了如何为Cloudflare Workers和Pages项目设置�
 
 ![image3.png](https://img.onew.us.kg/file/9e988e5378956dfc3b455.png)
 
-### Workers 项目优选前后对比
+## Workers 项目优选前后对比
 
 ![image4.png](https://img.onew.us.kg/file/6dc17a4f963fc06c0b4ea.png)
 
@@ -170,6 +170,6 @@ ai: 这篇教程详细介绍了如何为Cloudflare Workers和Pages项目设置�
 
 ![image18.png](https://img.onew.us.kg/file/2864241a903fdefb7250a.png)
 
-# Pages 项目优选前后对比
+## Pages 项目优选前后对比
 
 ![image19.png](https://img.onew.us.kg/file/6dc17a4f963fc06c0b4ea.png)
