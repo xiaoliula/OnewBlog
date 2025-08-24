@@ -47,18 +47,35 @@ div#page {
     justify-content: center;
 }
 
-/* 评论卡片基础样式 */
+/* 评论网格布局 - 五列 */
+.comments-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+:root {
+    --card-width: 260px;
+    --card-height: 180px;
+}
+
+/* 评论卡片基础样式 - 固定尺寸 */
 .comment-card {
     position: relative;
-    width: calc(100% / 4 - 9px);
-    border-radius: 12px;
+    width: var(--card-width);
+    height: var(--card-height);
+    border-radius: 16px;
     border: 1px solid var(--anzhiyu-card-border);
-    padding: 14px;
+    padding: 18px;
     overflow: hidden;
     box-shadow: var(--anzhiyu-shadow-border);
-    animation: slide-in .6s .4s backwards;
     background-color: var(--anzhiyu-card-bg);
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 .comment-card:hover {
@@ -113,24 +130,62 @@ div#page {
     background-position: center;
 }
 
+/* 加载动画 */
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid var(--anzhiyu-main);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
 .comment-card:hover .avatar-wrapper {
     transform: translateY(-50%) scale(1.1);
     opacity: 0.6;
 }
 
-/* 响应式布局 */
-@media (max-width: 1024px) {
-    .comment-card {
-        width: calc(100% / 2 - 6px);
+        /* 响应式布局 */
+/* 大屏幕：5列 */
+@media (max-width: 1200px) {
+    .comments-grid {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
-@media (max-width: 768px) {
-    .comment-card {
-        width: 100%;
+/* 中等屏幕：3列 */
+@media (max-width: 992px) {
+    .comments-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
-    .banner-button-group {
-        display: none;
+}
+
+/* 平板：2列 */
+@media (max-width: 768px) {
+    .comments-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 手机：1列 */
+@media (max-width: 576px) {
+    .comments-grid {
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 }
 </style>
@@ -200,10 +255,10 @@ div#page {
       const adminBadge = mailMd5 === this.ADMIN_EMAIL_MD5 ? '<i class="fa fa-check-circle" style="color: #57bd6a; margin-left: 5px;"></i>' : '';
 
       // 固定字数，超出显示省略号
-      const maxLen = 15;
-      if (formattedContent.length > maxLen) {
-        formattedContent = formattedContent.slice(0, maxLen) + '...';
-      }
+                    const maxLen = 40;
+                    if (formattedContent.length > maxLen) {
+                        formattedContent = formattedContent.slice(0, maxLen) + '...';
+                    }
 
       return `
         <div class="comment-card" onclick="pjax.loadUrl('${url}#${id}')" title="点击查看评论">
