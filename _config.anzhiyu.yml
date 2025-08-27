@@ -17,6 +17,7 @@ menu:
     追番页: /bangumis/ || anzhiyu-icon-bilibili
     相册集: /album/ || anzhiyu-icon-images
     小空调: /air-conditioner/ || anzhiyu-icon-fan
+    个人服务: /services/ || anzhiyu-icon-folder-open
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
