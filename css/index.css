@@ -11215,12 +11215,6 @@ h1.page-title + .tag-cloud-list {
   top: 51.5em;
   left: 35em;
 }
-#nav-right #console-naoDark .container {
-  font-size: 0.85px;
-}
-#nav-right #nav-naoDark .container {
-  font-size: 0.5px;
-}
 @-moz-keyframes naoStar {
   0%, 20% {
     -webkit-transform: scale(0);
