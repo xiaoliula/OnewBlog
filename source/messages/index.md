@@ -47,35 +47,18 @@ div#page {
     justify-content: center;
 }
 
-/* 评论网格布局 - 五列 */
-.comments-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    width: 100%;
-    margin-top: 2rem;
-}
-
-:root {
-    --card-width: 260px;
-    --card-height: 180px;
-}
-
-/* 评论卡片基础样式 - 固定尺寸 */
+/* 评论卡片基础样式 */
 .comment-card {
     position: relative;
-    width: var(--card-width);
-    height: var(--card-height);
-    border-radius: 16px;
+    width: calc(100% / 4 - 9px);
+    border-radius: 12px;
     border: 1px solid var(--anzhiyu-card-border);
-    padding: 18px;
+    padding: 14px;
     overflow: hidden;
     box-shadow: var(--anzhiyu-shadow-border);
+    animation: slide-in .6s .4s backwards;
     background-color: var(--anzhiyu-card-bg);
-    transition: all 0.3s ease;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
+    transition: all .3s ease-in-out;
 }
 
 .comment-card:hover {
@@ -130,62 +113,24 @@ div#page {
     background-position: center;
 }
 
-/* 加载动画 */
-.loading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 100%;
-}
-
-.loading-spinner {
-    width: 40px;
-    height: 40px;
-    border: 4px solid #f3f3f3;
-    border-top: 4px solid var(--anzhiyu-main);
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-
 .comment-card:hover .avatar-wrapper {
     transform: translateY(-50%) scale(1.1);
     opacity: 0.6;
 }
 
-        /* 响应式布局 */
-/* 大屏幕：5列 */
-@media (max-width: 1200px) {
-    .comments-grid {
-        grid-template-columns: repeat(4, 1fr);
+/* 响应式布局 */
+@media (max-width: 1024px) {
+    .comment-card {
+        width: calc(100% / 2 - 6px);
     }
 }
 
-/* 中等屏幕：3列 */
-@media (max-width: 992px) {
-    .comments-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-/* 平板：2列 */
 @media (max-width: 768px) {
-    .comments-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .comment-card {
+        width: 100%;
     }
-}
-
-/* 手机：1列 */
-@media (max-width: 576px) {
-    .comments-grid {
-        grid-template-columns: 1fr;
-        justify-items: center;
+    .banner-button-group {
+        display: none;
     }
 }
 </style>

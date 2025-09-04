@@ -1,0 +1,41 @@
+#todolist-box
+    - let todo_background = page.top_background
+    .author-content.author-content-item.todolist.single(style=`${todo_background ? `background: url(${todo_background}) top / cover no-repeat;` : ""}`)
+        .card-content
+            .author-content-item-tips Todo
+            span.author-content-item-title 待办清单
+            .content-bottom
+            .tips 耽误太多时间，事情可就做不完了
+            .banner-button-group
+              a.banner-button(onclick='pjax.loadUrl("/about/")')
+                i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
+                span.banner-button-text 我的更多
+    #todolist-main
+        #todolist-left
+            each i in site.data.todolist
+                if i.seat == 'left'
+                    .todolist-item
+                        h3.todolist-title=i.class_name
+                        ul.todolist-ul
+                            each item in i.todo_list
+                                 - var listItemClass = item.completed ? 'todolist-li-done' : 'todolist-li'
+                                 li(class=listItemClass)
+                                    if item.completed
+                                        i.fa-regular.fa-circle-check
+                                    else 
+                                        i.fa-regular.fa-circle
+                                    span=item.content
+        #todolist-right
+            each i in site.data.todolist
+                if i.seat == 'right'
+                    .todolist-item
+                        h3.todolist-title=i.class_name
+                        ul.todolist-ul
+                            each item in i.todo_list
+                                 - var listItemClass = item.completed ? 'todolist-li-done' : 'todolist-li'
+                                 li(class=listItemClass)
+                                    if item.completed
+                                        i.fa-regular.fa-circle-check
+                                    else 
+                                        i.fa-regular.fa-circle
+                                    span=item.content

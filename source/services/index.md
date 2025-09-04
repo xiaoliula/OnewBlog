@@ -86,7 +86,7 @@ comments: false
                     <td>Onew的文件快递柜</td>
                     <td><span class="service-type">工具</span></td>
                     <td>file.onew.us.kg</td>
-                    <td><span class="status-badge status-active">运行中</span></td>
+                    <td><span class="status-badge status-inactive">离线</span></td>
                     <td><a href="https://file.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
                 <tr data-domain="基础服务">
@@ -104,63 +104,63 @@ comments: false
                     <td><a href="https://friends.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
                 <!-- onew.us.kg -->
-                <tr data-domain="onew.us.kg" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.us.kg" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>fnOS</td>
                     <td><span class="service-type">Nas</span></td>
                     <td>nas.onew.us.kg</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://nas.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.us.kg" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.us.kg" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Immich</td>
                     <td><span class="service-type">相册</span></td>
                     <td>immich.onew.us.kg</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://immich.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.us.kg" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.us.kg" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Lucky</td>
                     <td><span class="service-type">工具</span></td>
                     <td>lucky.onew.us.kg</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://lucky.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.us.kg" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.us.kg" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>v2rayA</td>
                     <td><span class="service-type">工具</span></td>
                     <td>lucky.onew.us.kg</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://v2raya.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.us.kg" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.us.kg" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>MoviePilot</td>
                     <td><span class="service-type">工具</span></td>
                     <td>mp.onew.us.kg</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://mp.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.us.kg" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.us.kg" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>qBittorrent Web UI</td>
                     <td><span class="service-type">工具</span></td>
                     <td>qb.onew.us.kg</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://qb.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.us.kg" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.us.kg" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>探索日记</td>
                     <td><span class="service-type">Blog</span></td>
                     <td>p-blog.onew.us.kg</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://p-blog.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.us.kg" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.us.kg" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Onew的文件快递柜</td>
                     <td><span class="service-type">工具</span></td>
                     <td>file.onew.us.kg</td>
-                    <td><span class="status-badge status-active">运行中</span></td>
+                    <td><span class="status-badge status-inactive">离线</span></td>
                     <td><a href="https://file.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.us.kg" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.us.kg" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Speedtest-x</td>
                     <td><span class="service-type">工具</span></td>
                     <td>speedtest.onew.us.kg</td>
@@ -168,63 +168,63 @@ comments: false
                     <td><a href="http://speedtest.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
                 <!-- onew.pp.ua -->
-                <tr data-domain="onew.pp.ua" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.pp.ua" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>fnOS</td>
                     <td><span class="service-type">Nas</span></td>
                     <td>nas.onew.pp.ua:8888</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://nas.onew.pp.ua:8888/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.pp.ua" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.pp.ua" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Immich</td>
                     <td><span class="service-type">相册</span></td>
                     <td>immich.onew.pp.ua:8888</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://immich.onew.pp.ua:8888/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.pp.ua" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.pp.ua" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Lucky</td>
                     <td><span class="service-type">工具</span></td>
                     <td>lucky.onew.pp.ua:8888</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://lucky.onew.pp.ua:8888/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.pp.ua" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.pp.ua" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>v2rayA</td>
                     <td><span class="service-type">工具</span></td>
                     <td>lucky.onew.pp.ua:8888</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://v2raya.onew.pp.ua:8888/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.pp.ua" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.pp.ua" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>MoviePilot</td>
                     <td><span class="service-type">工具</span></td>
                     <td>mp.onew.pp.ua:8888</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://mp.onew.pp.ua:8888/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.pp.ua" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.pp.ua" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>qBittorrent Web UI</td>
                     <td><span class="service-type">工具</span></td>
                     <td>qb.onew.pp.ua:8888</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://qb.onew.pp.ua:8888/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.pp.ua" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.pp.ua" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>探索日记</td>
                     <td><span class="service-type">Blog</span></td>
                     <td>p-blog.onew.pp.ua:8888</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://p-blog.onew.pp.ua:8888/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.pp.ua" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.pp.ua" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Onew的文件快递柜</td>
                     <td><span class="service-type">工具</span></td>
                     <td>file.onew.pp.ua:8888</td>
-                    <td><span class="status-badge status-active">运行中</span></td>
+                    <td><span class="status-badge status-inactive">离线</span></td>
                     <td><a href="https://file.onew.pp.ua:8888/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.pp.ua" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.pp.ua" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Speedtest-x</td>
                     <td><span class="service-type">工具</span></td>
                     <td>speedtest.onew.pp.ua:8888</td>
@@ -232,63 +232,63 @@ comments: false
                     <td><a href="http://speedtest.onew.pp.ua:8888/" class="visit-btn">访问</a></td>
                 </tr>
                 <!-- onew.dpdns.org -->
-                <tr data-domain="onew.dpdns.org" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.dpdns.org" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>fnOS</td>
                     <td><span class="service-type">Nas</span></td>
                     <td>nas.onew.dpdns.org:9999</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://nas.onew.dpdns.org:9999/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.dpdns.org" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.dpdns.org" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Immich</td>
                     <td><span class="service-type">相册</span></td>
                     <td>immich.onew.dpdns.org:9999</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://immich.onew.dpdns.org:9999/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.dpdns.org" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.dpdns.org" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Lucky</td>
                     <td><span class="service-type">工具</span></td>
                     <td>lucky.onew.dpdns.org:9999</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://lucky.onew.dpdns.org:9999/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.dpdns.org" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.dpdns.org" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>v2rayA</td>
                     <td><span class="service-type">工具</span></td>
                     <td>lucky.onew.dpdns.org:9999</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://v2raya.onew.dpdns.org:9999/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.dpdns.org" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.dpdns.org" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>MoviePilot</td>
                     <td><span class="service-type">工具</span></td>
                     <td>mp.onew.dpdns.org:9999</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://mp.onew.dpdns.org:9999/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.dpdns.org" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.dpdns.org" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>qBittorrent Web UI</td>
                     <td><span class="service-type">工具</span></td>
                     <td>qb.onew.dpdns.org:9999</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://qb.onew.dpdns.org:9999/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.dpdns.org" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.dpdns.org" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>探索日记</td>
                     <td><span class="service-type">Blog</span></td>
                     <td>p-blog.onew.dpdns.org:9999</td>
                     <td><span class="status-badge status-active">运行中</span></td>
                     <td><a href="https://p-blog.onew.dpdns.org:9999/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.dpdns.org" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.dpdns.org" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Onew的文件快递柜</td>
                     <td><span class="service-type">工具</span></td>
                     <td>file.onew.dpdns.org:9999</td>
-                    <td><span class="status-badge status-active">运行中</span></td>
+                    <td><span class="status-badge status-inactive">离线</span></td>
                     <td><a href="https://file.onew.dpdns.org:9999/" class="visit-btn">访问</a></td>
                 </tr>
-                <tr data-domain="onew.dpdns.org" class="locked-service" style="opacity: 0.5;filter: blur(3px);pointer-events: none;">
+                <tr data-domain="onew.dpdns.org" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
                     <td>Speedtest-x</td>
                     <td><span class="service-type">工具</span></td>
                     <td>speedtest.onew.dpdns.org:9999</td>

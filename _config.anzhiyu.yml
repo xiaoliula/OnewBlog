@@ -16,7 +16,7 @@ menu:
     音乐馆: /music/ || anzhiyu-icon-music
     追番页: /bangumis/ || anzhiyu-icon-bilibili
     相册集: /album/ || anzhiyu-icon-images
-    小空调: /air-conditioner/ || anzhiyu-icon-fan
+    # 小空调: /air-conditioner/ || anzhiyu-icon-fan
     个人服务: /services/ || anzhiyu-icon-folder-open
 
   关于:
@@ -1160,7 +1160,7 @@ comment_barrage_config:
 # https://github.com/metowolf/MetingJS
 nav_music:
   enable: true
-  console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
+  console_widescreen_music: true # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
   id: 8152976493
   server: netease
   volume: 0.7 # 默认音量
@@ -1227,7 +1227,7 @@ post_head_ai_description:
 
 # 快捷键配置
 shortcutKey:
-  enable: false
+  enable: true
   delay: 100 # 所有键位延时触发而不是立即触发（包括shift，以解决和浏览器键位冲突问题）
   shiftDelay: 200 # shift按下延时多久开启
 
@@ -1256,8 +1256,16 @@ rightClickMenu:
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: false
-  img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png
+  enable: true
+  img: #新增图片
+    - /img/people_01.png
+  background_image:  
+  rows: 13 # 精灵图列数，默认15
+  cols: 4 # 精灵图行数，默认7
+  scale: 0.5 # 人物大小缩放比例 (0.1-1.0)，默认1.0
+  density: 0.5 # 人物密度 (0.1-2.0)，默认1.0
+  speed: 0.9 # 人物移动速度 (0.1-3.0)，默认1.0
+  offsetY: 100 # 垂直位置偏移 (-200 到 200，负值向上，正值向下)，默认0
 
 # 动效
 dynamicEffect:
@@ -1277,6 +1285,7 @@ inject:
     - <link rel="stylesheet" href="/css/imgloaded.css?1">   # 背景css
     - <link rel="stylesheet" href="/css/home.css"> # 首页文章卡片擦亮效果
     - <link rel="stylesheet" href="/css/cursor.css"> # 鼠标指针样式
+    - <link rel="stylesheet" href="/css/todolist.css"> # 待办清单页
 
   bottom:
     # 自定义js

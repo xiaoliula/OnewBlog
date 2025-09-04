@@ -192,6 +192,7 @@ hexo_safego:
       - "onew.us.kg"
       - "onew.pp.ua"
       - "onewa.fun"
+      - "onew.dpdns.org"
   # 页面外观设置
   appearance:
     avatar: https://img.onew.us.kg/file/1741045424366_logo.jpg    # 头像路径
