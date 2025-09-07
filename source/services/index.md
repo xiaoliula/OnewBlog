@@ -115,7 +115,7 @@ comments: false
                     <td>Immich</td>
                     <td><span class="service-type">相册</span></td>
                     <td>immich.onew.us.kg</td>
-                    <td><span class="status-badge status-active">运行中</span></td>
+                    <td><span class="status-badge status-inactive">离线</span></td>
                     <td><a href="https://immich.onew.us.kg/" class="visit-btn">访问</a></td>
                 </tr>
                 <tr data-domain="onew.us.kg" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
@@ -179,7 +179,7 @@ comments: false
                     <td>Immich</td>
                     <td><span class="service-type">相册</span></td>
                     <td>immich.onew.pp.ua:8888</td>
-                    <td><span class="status-badge status-active">运行中</span></td>
+                    <td><span class="status-badge status-inactive">离线</span></td>
                     <td><a href="https://immich.onew.pp.ua:8888/" class="visit-btn">访问</a></td>
                 </tr>
                 <tr data-domain="onew.pp.ua" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
@@ -243,7 +243,7 @@ comments: false
                     <td>Immich</td>
                     <td><span class="service-type">相册</span></td>
                     <td>immich.onew.dpdns.org:9999</td>
-                    <td><span class="status-badge status-active">运行中</span></td>
+                    <td><span class="status-badge status-inactive">离线</span></td>
                     <td><a href="https://immich.onew.dpdns.org:9999/" class="visit-btn">访问</a></td>
                 </tr>
                 <tr data-domain="onew.dpdns.org" class="locked-service" style="display: none;filter: blur(3px);pointer-events: none;">
