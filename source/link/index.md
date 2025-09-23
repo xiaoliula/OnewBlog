@@ -140,11 +140,11 @@ a(href='https://blog.onew.us.kg/' rel="external nofollow") Onew-学习是进步�
 
 ```yml
 
-# - name: 月落星河Tsukistar # 无友链
-#   link: https://www.tsukistar.fun
-#   avatar: https://img02.anheyu.com/thumbnails/b06fa23157e29c67dbca5766151621b4.png
-#   descr: 浩瀚中的伟大，孤独间的渺小
-#   siteshot: https://img02.anheyu.com/adminuploads/1/2022/09/02/6311fd47c9ea6.webp
+#  - name: 月落星河Tsukistar # 无友链
+#    link: https://www.tsukistar.fun
+#    avatar: https://img02.anheyu.com/thumbnails/b06fa23157e29c67dbca5766151621b4.png
+#    descr: 浩瀚中的伟大，孤独间的渺小
+#    siteshot: https://img02.anheyu.com/adminuploads/1/2022/09/02/6311fd47c9ea6.webp
 
 ```
 
