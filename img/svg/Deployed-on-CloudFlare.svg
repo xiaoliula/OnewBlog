@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="155" height="20" role="img" aria-label="Deployed on CloudFlare">
+<title>Deployed on CloudFlare</title>
+<linearGradient id="s" x2="0" y2="100%">
+<stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+<stop offset="1" stop-opacity=".1"/>
+</linearGradient>
+<clipPath id="r">
+<rect width="155" height="20" rx="3" fill="#fff"/>
+</clipPath>
+<g clip-path="url(#r)">
+<rect width="85" height="20" fill="#555"/>
+<rect x="85" width="70" height="20" fill="#F38020"/>
+<rect width="155" height="20" fill="url(#s)"/>
+</g>
+<g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110" xml:space='preserve'>
+<!-- CloudFlare图标 -->
+<g transform="translate(5,3) scale(0.6)">
+<path d="M16.493 17.4c.135-.52.08-.983-.161-1.338-.215-.328-.592-.519-1.05-.519l-8.663-.109a.148.148 0 01-.135-.082c-.027-.054-.027-.109-.027-.163.027-.082.108-.164.189-.164l8.744-.11c1.05-.054 2.153-.9 2.556-1.937l.511-1.31c.027-.055.027-.11.027-.164C17.92 8.91 15.66 7 12.942 7c-2.503 0-4.628 1.638-5.381 3.903a2.432 2.432 0 00-1.803-.491c-1.21.109-2.153 1.092-2.287 2.32-.027.328 0 .628.054.9C1.56 13.688 0 15.326 0 17.319c0 .19.027.355.027.545 0 .082.08.137.161.137h15.983c.08 0 .188-.055.215-.164l.107-.437" fill="#F38020"/>
+<path d="M19.238 11.75h-.242c-.054 0-.108.054-.135.109l-.35 1.2c-.134.52-.08.983.162 1.338.215.328.592.518 1.05.518l1.855.11c.054 0 .108.027.135.082.027.054.027.109.027.163-.027.082-.108.164-.188.164l-1.91.11c-1.05.054-2.153.9-2.557 1.937l-.134.355c-.027.055.026.137.107.137h6.592c.081 0 .162-.055.162-.137.107-.41.188-.846.188-1.31-.027-2.62-2.153-4.777-4.762-4.777" fill="#FCAD32"/>
+</g>
+
+<text aria-hidden="true" x="500" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">Deployed</text>
+<text x="500" y="140" transform="scale(.1)" fill="#fff" textLength="500">Deployed</text>
+<text aria-hidden="true" x="1200" y="150" fill="#F38020" fill-opacity=".3" transform="scale(.1)" textLength="560">CloudFlare</text>
+<text x="1200" y="140" transform="scale(.1)" fill="#fff" textLength="560">CloudFlare</text>
+</g>
+</svg>
