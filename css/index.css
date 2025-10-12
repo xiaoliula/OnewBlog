@@ -23027,7 +23027,7 @@ body:has(#console.show) #nav-music .aplayer .aplayer-lrc .aplayer-lrc-contents {
   }
 }
 
-body[data-type="essay"] #page {
+/* body[data-type="essay"] #page {
   border: 0;
   box-shadow: none !important;
   padding: 0 !important;
@@ -23297,8 +23297,8 @@ body[data-type="essay"] #web_bg {
 #bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
   position: initial;
 }
-
-/* 顶部样式 */
+  
+    顶部样式
 .author-content.author-content-item.essayPage {
   height: 19rem;
   color: var(--anzhiyu-white);
@@ -23310,7 +23310,7 @@ body[data-type="essay"] #page .author-content-item .card-content .banner-button-
   border-radius: 20px !important;
 }
 
-/* 响应式 */
+    响应式
 @media screen and (max-width: 1200px) {
   #bber .timeline ul li.bber-item {
     width: 49%;
@@ -23335,8 +23335,339 @@ body[data-type="essay"] #page .author-content-item .card-content .banner-button-
   line-height: 30px !important;
   height: 40px !important;
   margin: 0 !important;
+} */
+
+
+body[data-type="essay"] #page {
+  border: 0;
+  box-shadow: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+body[data-type="essay"] #page .page-title {
+  display: none;
+}
+body[data-type="essay"] #web_bg {
+  background: var(--anzhiyu-background);
 }
 
+/* 优化图片容器布局 - 不换行显示 */
+#bber .bber-container-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: nowrap; /* 禁止换行 */
+  margin-bottom: 0.3rem;
+  overflow-x: auto; /* 水平滚动 */
+  gap: 8px;
+  padding-bottom: 5px;
+}
+
+#bber .bber-container-img .bber-content-noimg {
+  width: calc(100% / 5 - 8px); /* 5列布局 */
+  flex-shrink: 0; /* 防止缩小 */
+}
+
+/* 优化图片显示 - 固定合适尺寸 */
+#bber .bber-content-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#bber .bber-content-img,
+#bber .bber-content-video {
+  height: 150px; /* 增加高度避免变形 */
+  width: calc(100% / 5 - 8px); /* 5列布局 */
+  min-width: 120px; /* 最小宽度避免过窄 */
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 0;
+  flex-shrink: 0; /* 防止缩小 */
+  background: var(--anzhiyu-secondbg);
+}
+
+#bber .bber-content-video video {
+  border-radius: 8px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#bber .bber-content-video::after {
+  content: "视频";
+  display: inline-block;
+  padding: 1px 6px;
+  background: var(--anzhiyu-black-op);
+  border-radius: 8px;
+  margin-left: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--anzhiyu-white);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transform: translateZ(0);
+  position: absolute;
+  left: 0;
+  top: 4px;
+  z-index: 2;
+}
+
+/* 恢复原始字体设置 */
+#bber .bber-content .datacont {
+  order: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--anzhiyu-fontcolor);
+  width: 100%;
+  line-height: 1.38;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+#bber p {
+  margin: 0px;
+}
+#bber div.bber-content {
+  display: flex;
+  flex-flow: wrap;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+/* === 单列居中显示，宽度100% === */
+#bber ul.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bber .timeline ul li.bber-item {
+  position: relative;
+  width: 100% !important;
+  border: var(--style-border-always);
+  border-radius: 12px;
+  padding: 1rem 1rem 0.5rem;
+  transition: all 0.3s ease 0s;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: var(--anzhiyu-card-bg);
+  box-shadow: var(--anzhiyu-shadow-border);
+  margin-right: 0 !important;
+  margin-bottom: 1rem;
+}
+
+#bber .timeline #waterfall.show {
+  opacity: 1;
+}
+#bber .timeline #waterfall {
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+
+#bber {
+  margin-top: 1rem;
+  width: 100%;
+}
+#bber > section > ul > li.bber-item {
+  margin-bottom: 1rem;
+}
+
+#bber-tips {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#bber .timeline ul li.bber-item hr {
+  display: flex;
+  position: relative;
+  margin: 8px 0px;
+  border: 1px dashed var(--anzhiyu-theme-op);
+  width: 100%;
+}
+
+#bber .bber-info {
+  display: flex;
+  align-items: center;
+}
+
+#bber > section > ul > li > div .bber-info-time,
+#bber > section > ul > li > div .bber-info-from {
+  color: var(--anzhiyu-fontcolor);
+  font-size: 0.7rem;
+  background-color: var(--anzhiyu-gray-op);
+  padding: 0px 8px;
+  border-radius: 20px;
+  cursor: default;
+  display: flex;
+  align-items: center;
+}
+
+#bber .bber-info .anzhiyufont.anzhiyu-icon-clock {
+  margin-right: 4px;
+  font-size: 0.7rem;
+}
+#bber > section > ul > li > div .bber-info-from span,
+#bber > section > ul > li > div .bber-info-from {
+  margin-left: 4px;
+}
+#bber > section > ul > li > div .bber-info-from i {
+  font-size: 0.7rem;
+}
+#bber .bber-item hr::before {
+  display: none;
+}
+
+#bber .bber-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.bber-reply {
+  cursor: pointer !important;
+}
+
+.bber-reply:hover {
+  color: var(--anzhiyu-main);
+  max-height: 35px;
+}
+
+#bber .timeline ul li.bber-item:hover {
+  border: var(--style-border-hover);
+}
+
+#bber .bber-content-link {
+  display: flex;
+  margin-left: 0.5rem;
+  font-size: 0.7rem;
+  align-items: center;
+  background-color: rgba(245, 108, 108, 0.13);
+  color: rgb(245, 108, 108);
+  padding: 0px 8px;
+  border-radius: 20px;
+}
+#bber .bber-content-link i {
+  margin-right: 3px;
+  font-size: 0.7rem;
+}
+#bber .bber-content-link:hover {
+  background-color: var(--anzhiyu-main);
+  color: var(--anzhiyu-white);
+}
+#bber .bber-music {
+  width: 100%;
+  height: 90px;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: var(--style-border-always);
+  background: var(--anzhiyu-secondbg);
+}
+#bber .aplayer {
+  margin: 0;
+}
+
+#bber .aplayer.aplayer-withlrc .aplayer-pic {
+  height: 82px;
+  width: 82px;
+  margin: 4px;
+  border-radius: 4px;
+}
+.bber-music .aplayer.aplayer-withlrc .aplayer-info {
+  padding: 5px 7px 0;
+}
+#bber .aplayer .aplayer-info .aplayer-music {
+  height: 23px;
+}
+#bber .aplayer .aplayer-info .aplayer-music .aplayer-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--anzhiyu-fontcolor);
+}
+
+#bber .aplayer .aplayer-info .aplayer-controller {
+  align-items: center;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
+  padding: 0;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
+  position: initial;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
+  background: var(--anzhiyu-gray);
+  height: 8px;
+  border-radius: 12px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
+  height: 100%;
+  border-radius: 12px;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
+  height: 100%;
+  border-radius: 12px;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {
+  display: none;
+}
+#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {
+  position: initial;
+}
+  
+/* 顶部样式 */
+.author-content.author-content-item.essayPage {
+  height: 19rem;
+  color: var(--anzhiyu-white);
+  overflow: hidden;
+  margin-top: 0px;
+}
+body[data-type="essay"] #page .author-content-item .card-content .banner-button-group .banner-button:hover {
+  color: var(--anzhiyu-white);
+  border-radius: 20px !important;
+}
+
+/* 响应式 - 移除多列设置 */
+@media screen and (max-width: 1200px) {
+  #bber .timeline ul li.bber-item {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #bber .timeline ul li.bber-item {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+}
+[data-theme="dark"] #bber .bber-music .aplayer,
+[data-theme="dark"] #bber .aplayer .aplayer-lrc:before,
+[data-theme="dark"] #bber .aplayer .aplayer-lrc:after {
+  background: var(--anzhiyu-card-bg);
+  color: var(--anzhiyu-fontcolor);
+}
+#bber .aplayer .aplayer-lrc p {
+  color: var(--anzhiyu-fontcolor);
+  min-height: 40px;
+  line-height: 30px !important;
+  height: 40px !important;
+  margin: 0 !important;
+}
 #bbTimeList {
   background: var(--anzhiyu-white);
   color: var(--anzhiyu-fontcolor);
