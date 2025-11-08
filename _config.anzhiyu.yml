@@ -21,7 +21,7 @@ menu:
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
-    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+    日常说说: /essay/ || anzhiyu-icon-lightbulb
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
     我的装备: /equipment/ || anzhiyu-icon-dice-d20
     站点统计: https://umami.onew.us.kg/share/hbFaYrKyVP4d31Yf/blog.onew.us.kg || anzhiyu-icon-chart-line
@@ -1292,6 +1292,7 @@ inject:
     - <link rel="stylesheet" href="/css/home.css"> # 首页文章卡片擦亮效果
     - <link rel="stylesheet" href="/css/cursor.css"> # 鼠标指针样式
     - <link rel="stylesheet" href="/css/todolist.css"> # 待办清单页
+    - <link rel="stylesheet" href="/css/custom/twikoo_beautify.css"  media="defer" onload="this.media='all'"> # twikoo美化css
 
   bottom:
     # 自定义js
