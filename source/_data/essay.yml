@@ -7,6 +7,14 @@
   home_essay: true
   top_background: https://img.onew.us.kg/file/1750598704568_NZPq70J8RjB07Vq_Spring Blossoms_5_115709.mp4
   essay_list:
+    - content: 今天开车公司的车子去外面修电脑回来倒库的时候不小心把车子刮了一下，虽然不是很明显，但是在车头位置，不知道会不会让我赔钱
+      date: 2025/11/29
+      # image:
+      #   - https://img.onew.us.kg/file/8B3C9BBCFBEF3C350AE0516671F19A1F.jpg
+    - content: 工作了一个月，发了工资，挺高兴的，可以开始给妈妈交养老保险了,等下个月就可以给妈妈交养老保险的子女资助了
+      date: 2025/11/13
+      image:
+        - https://img.onew.us.kg/file/1763735214754_a1dd3a600bd90f8967aebd95a3de6b3b.jpg
     - content: 第一天上班，感觉还是挺好的，慢慢学吧
       date: 2025/10/11
     - content: OK啊，哥们儿又找到工作了，虽说工资有点低，但是离家挺近的

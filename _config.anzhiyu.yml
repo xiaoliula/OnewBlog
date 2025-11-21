@@ -17,7 +17,7 @@ menu:
     追番页: /bangumis/ || anzhiyu-icon-bilibili
     相册集: /album/ || anzhiyu-icon-images
     # 小空调: /air-conditioner/ || anzhiyu-icon-fan
-    个人服务: /services/ || anzhiyu-icon-folder-open
+    # 个人服务: /services/ || anzhiyu-icon-folder-open
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
@@ -1292,7 +1292,6 @@ inject:
     - <link rel="stylesheet" href="/css/home.css"> # 首页文章卡片擦亮效果
     - <link rel="stylesheet" href="/css/cursor.css"> # 鼠标指针样式
     - <link rel="stylesheet" href="/css/todolist.css"> # 待办清单页
-    - <link rel="stylesheet" href="/css/custom/twikoo_beautify.css"  media="defer" onload="this.media='all'"> # twikoo美化css
 
   bottom:
     # 自定义js
