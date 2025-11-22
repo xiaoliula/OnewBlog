@@ -9,8 +9,8 @@
   essay_list:
     - content: 今天开车公司的车子去外面修电脑回来倒库的时候不小心把车子刮了一下，虽然不是很明显，但是在车头位置，不知道会不会让我赔钱
       date: 2025/11/29
-      # image:
-      #   - https://img.onew.us.kg/file/8B3C9BBCFBEF3C350AE0516671F19A1F.jpg
+      image:
+        - https://img.onew.us.kg/file/1763793395529_6a4ff78ebde8f4370d804dec45e1e421.jpg
     - content: 工作了一个月，发了工资，挺高兴的，可以开始给妈妈交养老保险了,等下个月就可以给妈妈交养老保险的子女资助了
       date: 2025/11/13
       image:
