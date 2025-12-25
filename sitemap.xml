@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/wordScenery/</loc>
+    <loc>https://blog.onew.us.kg/wallpaper/</loc>
     
     <lastmod>2025-12-25</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/wallpaper/</loc>
+    <loc>https://blog.onew.us.kg/wordScenery/</loc>
     
     <lastmod>2025-12-25</lastmod>
     
@@ -155,16 +155,7 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/cookies/</loc>
-    
-    <lastmod>2025-12-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/copyright/</loc>
+    <loc>https://blog.onew.us.kg/about/</loc>
     
     <lastmod>2025-12-25</lastmod>
     
@@ -218,7 +209,16 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/about/</loc>
+    <loc>https://blog.onew.us.kg/cookies/</loc>
+    
+    <lastmod>2025-12-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/copyright/</loc>
     
     <lastmod>2025-12-25</lastmod>
     
