@@ -29,24 +29,6 @@
   </url>
   
   <url>
-    <loc>https://blog.onew.us.kg/tags/</loc>
-    
-    <lastmod>2025-12-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/thousand/</loc>
-    
-    <lastmod>2025-12-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.onew.us.kg/todolist/</loc>
     
     <lastmod>2025-12-25</lastmod>
@@ -119,6 +101,24 @@
   </url>
   
   <url>
+    <loc>https://blog.onew.us.kg/tags/</loc>
+    
+    <lastmod>2025-12-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/thousand/</loc>
+    
+    <lastmod>2025-12-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.onew.us.kg/dailyPhoto/</loc>
     
     <lastmod>2025-12-25</lastmod>
@@ -147,6 +147,24 @@
   
   <url>
     <loc>https://blog.onew.us.kg/fcircle/</loc>
+    
+    <lastmod>2025-12-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/cookies/</loc>
+    
+    <lastmod>2025-12-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.onew.us.kg/copyright/</loc>
     
     <lastmod>2025-12-25</lastmod>
     
@@ -201,24 +219,6 @@
   
   <url>
     <loc>https://blog.onew.us.kg/comments/</loc>
-    
-    <lastmod>2025-12-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/cookies/</loc>
-    
-    <lastmod>2025-12-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.onew.us.kg/copyright/</loc>
     
     <lastmod>2025-12-25</lastmod>
     
